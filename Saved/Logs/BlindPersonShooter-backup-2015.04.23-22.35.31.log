@@ -1,0 +1,724 @@
+﻿Log file open, 04/23/15 21:10:01
+LogInit:Display: Running engine for game: BlindPersonShooter
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.23-19.10.01:882][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.23-19.10.01:958][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.23-19.10.01:998][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.23-19.10.02:006][  0]LogInit: Object subsystem initialized
+[2015.04.23-19.10.02:007][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.23-19.10.02:007][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.23-19.10.02:007][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.23-19.10.02:007][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.23-19.10.02:007][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.23-19.10.02:007][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.23-19.10.02:008][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.23-19.10.02:008][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.23-19.10.02:016][  0]LogInit: Computer: WOUTER-PC
+[2015.04.23-19.10.02:016][  0]LogInit: User: Wouter
+[2015.04.23-19.10.02:016][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.23-19.10.02:016][  0]LogInit: High frequency timer resolution =3.222695 MHz
+[2015.04.23-19.10.02:016][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2015.04.23-19.10.02:016][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.23-19.10.02:016][  0]LogMemory: Process Physical Memory: 46.35 MB used, 46.35 MB peak
+[2015.04.23-19.10.02:016][  0]LogMemory: Process Virtual Memory: 24.61 MB used, 24.62 MB peak
+[2015.04.23-19.10.02:016][  0]LogMemory: Physical Memory: 4262.08 MB used, 8167.08 MB total
+[2015.04.23-19.10.02:016][  0]LogMemory: Virtual Memory: 295.67 MB used, 134217728.00 MB total
+[2015.04.23-19.10.02:066][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6900 Series (Feature Level 11_0)
+[2015.04.23-19.10.02:066][  0]LogD3D11RHI: Adapter has 2032MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 2 output[s]
+[2015.04.23-19.10.02:067][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.23-19.10.02:067][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.23-19.10.02:067][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.23-19.10.02:071][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.23-19.10.02:077][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.04.23-19.10.02:221][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.23-19.10.02:271][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.23-19.10.02:271][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.23-19.10.02:336][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.23-19.10.04:722][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.23-19.10.05:496][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.23-19.10.05:592][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.23-19.10.05:625][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Wouter/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.23-19.10.05:625][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Wouter/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.23-19.10.05:625][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.23-19.10.05:625][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.23-19.10.05:724][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.23-19.10.05:737][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Wouter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.23-19.10.06:081][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.23-19.10.06:081][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.23-19.10.06:520][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.23-19.10.06:684][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.23-19.10.07:952][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.23-19.10.08:340][  0]SourceControl: Info Source control is disabled
+[2015.04.23-19.10.08:340][  0]SourceControl: Info Source control is disabled
+[2015.04.23-19.10.08:340][  0]SourceControl: Info Source control is disabled
+[2015.04.23-19.10.08:340][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.23-19.10.08:340][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.23-19.10.08:356][  0]SourceControl: Info Source control is disabled
+[2015.04.23-19.10.08:736][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.23-19.10.08:736][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.23-19.10.08:842][  0]LogEngine: Initializing Engine...
+[2015.04.23-19.10.10:996][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.23-19.10.11:002][  0]LogInit: FAudioDevice initialized.
+[2015.04.23-19.10.11:073][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.23-19.10.11:090][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Wouter/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.23-19.10.11:095][  0]LogInit: Texture streaming: Enabled
+[2015.04.23-19.10.11:218][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.23-19.10.11:218][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.23-19.10.11:218][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.23-19.10.11:218][  0]LogAnalytics: SetUserId 7b6bbb2b4b1c643f97d6798f1001496e|f307042b1d2f4c46a4ba52bf0d9fc354|b90fe644-cef2-4d5d-81b9-41cf3ecc3bcd
+[2015.04.23-19.10.11:219][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.23-19.10.11:282][  0]LogInit: Transaction tracking system initialized
+[2015.04.23-19.10.11:623][  0]BlueprintLog: New page: Editor Load
+[2015.04.23-19.10.11:679][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.04.23-19.10.11:679][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.23-19.10.12:434][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.23-19.10.12:826][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.23-19.10.13:335][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.23-19.10.13:336][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.23-19.10.13:341][  0]LogConsoleResponse:Display: 
+[2015.04.23-19.10.13:506][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.23-19.10.13:792][  0]SourceControl: Info Source control is disabled
+[2015.04.23-19.10.13:792][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.23-19.10.13:793][  0]LightingResults: New page: Lighting Build
+[2015.04.23-19.10.13:813][  0]MapCheck: New page: Map Check
+[2015.04.23-19.10.13:813][  0]LightingResults: New page: Lighting Build
+[2015.04.23-19.10.13:819][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008456A0E980
+[2015.04.23-19.10.13:828][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.23-19.10.16:127][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.23-19.10.16:964][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.23-19.10.16:965][  0]Cmd: MAP CHECKDEP
+[2015.04.23-19.10.16:965][  0]MapCheck: New page: FirstPersonExampleMap - Apr 23, 2015, 11:10:16 PM
+[2015.04.23-19.10.17:181][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 216.246ms to complete.
+[2015.04.23-19.10.17:181][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.390
+[2015.04.23-19.10.17:337][  0]LogCollectionManager: Loaded 0 collections in 0.002179 seconds
+[2015.04.23-19.10.17:349][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 1696 classes and 261 folders.
+[2015.04.23-19.10.17:417][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0052 seconds. Added 1 classes and 2 folders.
+[2015.04.23-19.10.17:503][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.23-19.10.17:505][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.23-19.10.17:511][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.23-19.10.17:540][  0]LogLoad: Full Startup: 16.89 seconds (BP compile: 1.05 seconds)
+[2015.04.23-19.10.17:983][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Audio'
+[2015.04.23-19.10.18:121][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.23-19.10.18:264][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x496 (Frame:4).
+[2015.04.23-19.10.19:415][  4]LogAssetRegistry: Asset discovery search completed in 7.7464 seconds
+[2015.04.23-19.24.19:870][729]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Materials'
+[2015.04.23-19.24.20:176][752]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes'
+[2015.04.23-19.24.21:953][857]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Materials'
+[2015.04.23-19.24.27:148][148]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.23-19.24.27:171][148]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.23-19.24.27:232][148]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.23-19.24.27:232][148]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.23-19.24.27:232][148]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.23-19.24.27:232][148]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.23-19.24.27:249][148]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.23-19.24.27:250][148]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.23-19.24.27:280][148]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.04.23-19.24.27:282][148]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_1, compiling. 
+[2015.04.23-19.24.27:283][148]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_2, compiling. 
+[2015.04.23-19.24.27:284][148]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_3, compiling. 
+[2015.04.23-19.24.29:018][253]MaterialEditorStats: Info Base pass shader without light map: 54 instructions
+[2015.04.23-19.24.29:018][253]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.23-19.24.29:018][253]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.23-19.24.57:478][614]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.23-19.24.57:480][614]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.23-19.24.57:480][614]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_0, compiling. 
+[2015.04.23-19.24.58:202][693]MaterialEditorStats: Info Base pass shader without light map: 54 instructions
+[2015.04.23-19.24.58:202][693]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.23-19.24.58:202][693]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.23-19.25.06:641][698]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Rendering/Materials/ExpressionReference/Custom/index.html?utm_source=editor&utm_medium=docs&utm_campaign=rich_tooltips#custom
+[2015.04.23-19.25.29:527][ 96]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.23-19.25.29:528][ 96]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.23-19.25.30:315][182]MaterialEditorStats: Info Base pass shader without light map: 54 instructions
+[2015.04.23-19.25.30:315][182]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.23-19.25.30:315][182]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.23-19.32.40:654][ 77]LogEditorViewport: Clicking on Actor (LMB): CenterSpeaker_C (CenterSpeaker)
+[2015.04.23-19.34.14:600][351]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Materials'
+[2015.04.23-19.34.19:936][639]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2015.04.23-19.34.21:686][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.23-19.34.21:735][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.23-19.34.21:735][716]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.23-19.34.21:735][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.23-19.34.21:735][716]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.23-19.34.21:737][716]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2015.04.23-19.34.21:738][716]LogMaterial: 0.000030 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.23-19.34.21:739][716]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2015.04.23-19.34.21:740][716]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2015.04.23-19.34.21:740][716]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.23-19.34.21:741][716]LogMaterial:Warning: 	Missing function output 'Result'
+[2015.04.23-19.34.21:741][716]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.23-19.34.21:742][716]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2015.04.23-19.34.21:742][716]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.23-19.34.21:742][716]LogMaterial:Warning: 	Missing function output 'Result'
+[2015.04.23-19.34.21:742][716]LogMaterial: 0.000034 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.23-19.34.21:768][716]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2015.04.23-19.34.21:770][716]MaterialEditorStats:Error: Error [SM5] Missing function output 'Result'
+[2015.04.23-19.34.48:232][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.23-19.34.48:233][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.04.23-19.34.51:579][744]LogSavePackage: Save=3238.875000ms
+[2015.04.23-19.34.51:579][744]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMap_Auto166D93FDA45A3025EB8781C9BFBEFF55C.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.04.23-19.34.51:591][744]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 3.359
+[2015.04.23-19.34.51:591][744]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.359
+[2015.04.23-19.34.51:627][744]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Materials/SoundCue] ([1] browsable assets)...
+[2015.04.23-19.34.51:656][744]OBJ SavePackage:     Rendered thumbnail for [MaterialFunction /Game/FirstPersonBP/Materials/SoundCue.SoundCue]
+[2015.04.23-19.34.51:656][744]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Materials/SoundCue]
+[2015.04.23-19.34.51:926][744]LogSavePackage: Save=266.365265ms
+[2015.04.23-19.34.51:927][744]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/SoundCue_Auto1338698994BADB9F5AB4D618ADBB95135.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Materials/SoundCue_Auto1.uasset'
+[2015.04.23-19.34.51:934][744]LogFileHelpers: Auto-saving content packages took 0.343
+[2015.04.23-19.35.35:987][257]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2015.04.23-19.35.35:987][257]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.23-19.35.35:987][257]LogMaterial:Warning: 	Missing function output 'Result'
+[2015.04.23-19.35.35:988][257]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.23-19.35.35:988][257]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_1, compiling. 
+[2015.04.23-19.35.39:433][657]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2015.04.23-19.35.39:434][657]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.23-19.35.39:434][657]LogMaterial:Warning: 	Missing function output 'Result'
+[2015.04.23-19.35.39:434][657]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.23-19.36.03:079][162]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2015.04.23-19.36.03:079][162]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.23-19.36.03:079][162]LogMaterial:Warning: 	Missing function output 'Result'
+[2015.04.23-19.36.03:079][162]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.23-19.36.03:139][162]LogMaterial: 0.012077 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2015.04.23-19.36.10:609][185]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2015.04.23-19.36.10:609][185]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_3 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.23-19.36.10:609][185]LogMaterial:Warning: 	Missing function output 'Result'
+[2015.04.23-19.36.55:880][670]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.04.23-19.37.58:613][900]Cmd: r.ShaderDevelopmentMode 1
+[2015.04.23-19.37.58:613][900]r.ShaderDevelopmentMode = "1"
+[2015.04.23-19.38.10:784][328]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.23-19.38.10:787][328]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.23-19.38.10:848][328]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.04.23-19.38.10:848][328]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.23-19.38.10:862][328]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084182EC7C0
+[2015.04.23-19.38.10:862][328]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000841502FA60
+[2015.04.23-19.38.10:865][328]LogPlayLevel: PIE:  Blueprint regeneration took 80 ms (1 blueprints)
+[2015.04.23-19.38.10:865][328]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 11:38:10 PM)
+[2015.04.23-19.38.10:886][328]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.04.23-19.38.10:889][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022328s)
+[2015.04.23-19.38.10:890][328]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2015.04.23-19.38.10:890][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023906s)
+[2015.04.23-19.38.11:050][328]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.23-19.38.11:054][328]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.23-19.38.11:066][328]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.23-21.38.11
+[2015.04.23-19.38.11:067][328]LogWorld: Bringing up level for play took: 0.012646
+[2015.04.23-19.38.11:069][328]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.022
+[2015.04.23-19.38.24:027][872]Cmd: r.ShaderDevelopmentMode1
+[2015.04.23-19.38.24:027][872]Command not recognized: r.ShaderDevelopmentMode1
+[2015.04.23-19.38.34:476][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084198A6C00
+[2015.04.23-19.38.35:427][210]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.23-19.38.35:430][210]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.23-19.38.35:506][210]LogPlayLevel: PIE:  Blueprint regeneration took 78 ms (1 blueprints)
+[2015.04.23-19.38.35:506][210]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 11:38:35 PM)
+[2015.04.23-19.38.35:527][210]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.04.23-19.38.35:531][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024426s)
+[2015.04.23-19.38.35:532][210]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2015.04.23-19.38.35:532][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.025709s)
+[2015.04.23-19.38.35:571][210]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.23-19.38.35:574][210]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.23-19.38.35:585][210]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.23-21.38.35
+[2015.04.23-19.38.35:586][210]LogWorld: Bringing up level for play took: 0.012570
+[2015.04.23-19.38.35:588][210]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.458
+[2015.04.23-19.38.36:566][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008419873BA0
+[2015.04.23-19.38.40:723][519]LogSavePackage: Save=245.044281ms
+[2015.04.23-19.38.40:723][519]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/SoundCueFEB7A409468714F14AA9D6ABA0C9D667.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Materials/SoundCue.uasset'
+[2015.04.23-19.38.42:598][519]LogSavePackage: Save=1794.160156ms
+[2015.04.23-19.38.42:598][519]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/UEDPCFirstPersonExampleMap64C3A711467F910084A29FBBEDE7E174.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.umap'
+[2015.04.23-19.39.32:998][502]LogEditorViewport: Clicking on Actor (LMB): CenterSpeaker_C (CenterSpeaker)
+[2015.04.23-19.39.50:679][389]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Audio'
+[2015.04.23-19.40.02:814][795]LogSavePackage: Save=8.734304ms
+[2015.04.23-19.40.02:814][795]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/PlayerPulse98AFE59E4AE62203F0BE5B875C3AA90D.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/PlayerPulse.uasset'
+[2015.04.23-19.40.05:056][ 53]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.04.23-19.40.12:218][810]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.23-19.40.12:220][810]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.23-19.40.12:283][810]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.04.23-19.40.12:283][810]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.23-19.40.12:296][810]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000841B4B1EE0
+[2015.04.23-19.40.12:299][810]LogPlayLevel: PIE:  Blueprint regeneration took 81 ms (1 blueprints)
+[2015.04.23-19.40.12:299][810]PIE: New page: SIE session: FirstPersonExampleMap (Apr 23, 2015, 11:40:12 PM)
+[2015.04.23-19.40.12:319][810]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.04.23-19.40.12:321][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021669s)
+[2015.04.23-19.40.12:322][810]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2015.04.23-19.40.12:322][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022440s)
+[2015.04.23-19.40.12:323][810]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SkySphereBlueprint"
+[2015.04.23-19.40.12:381][810]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.23-19.40.12:383][810]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.23-19.40.12:394][810]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.23-21.40.12
+[2015.04.23-19.40.12:395][810]LogWorld: Bringing up level for play took: 0.011635
+[2015.04.23-19.40.12:398][810]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.351
+[2015.04.23-19.40.12:417][810]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SkySphereBlueprint"
+[2015.04.23-19.40.30:329][725]Cmd: SELECT NONE
+[2015.04.23-19.40.31:776][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000840EE44720
+[2015.04.23-19.45.38:993][287]LogSavePackage: Save=1888.452026ms
+[2015.04.23-19.45.38:993][287]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMap_Auto203766C2B436185675BD14AAE7673A31C.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2015.04.23-19.45.39:001][287]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.995
+[2015.04.23-19.45.39:001][287]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.995
+[2015.04.23-19.45.58:043][554]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 C:\Users\Wouter\Downloads\Submarine sonar ping military single military_BLASTWAVEFX_09678.wav)
+[2015.04.23-19.45.58:053][554]LogAudioDerivedData:Display: Building compressed audio format OGG wave Submarine_sonar_ping_military_single_military_BLASTWAVEFX_09678...
+[2015.04.23-19.45.58:144][554]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/Audio/Submarine_sonar_ping_military_single_military_BLASTWAVEFX_09678.Submarine_sonar_ping_military_single_military_BLASTWAVEFX_09678.
+[2015.04.23-19.45.58:150][554]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.23-19.45.58:150][554]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Audio'
+[2015.04.23-19.46.03:644][107]LogSavePackage: Save=9.373521ms
+[2015.04.23-19.46.03:644][107]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/SubmarineSonar8BF933494C4315CB79E3658B211F8317.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/SubmarineSonar.uasset'
+[2015.04.23-19.46.07:585][508]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Audio'
+[2015.04.23-19.46.38:899][ 91]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.23-19.46.38:901][ 91]LogUObjectHash:Warning: Ambiguous search, could be SoundCueGraphNode /Engine/EditorSounds/GamePreview/StartPlayInEditor_Cue.StartPlayInEditor_Cue:SoundCueGraph_4.SoundCueGraphNode_4 or SoundCueGraphNode /Game/FirstPersonBP/Audio/PlayerPulse.PlayerPulse:SoundCueGraph_1.SoundCueGraphNode_4
+[2015.04.23-19.46.38:901][ 91]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Audio/PlayerPulse.PlayerPulse:SoundCueGraph_1.SoundCueGraphNode_4.EdGraphPin_17894) from referencer (EdGraphPin /Game/FirstPersonBP/Audio/SubSonar.SubSonar:SoundCueGraph_1.SoundCueGraphNode_5.EdGraphPin_17895).  Import failed...
+[2015.04.23-19.46.38:901][ 91]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'SoundCueGraphNode_4.EdGraphPin_17894''
+[2015.04.23-19.46.38:901][ 91]LogUObjectHash:Warning: Ambiguous search, could be SoundCueGraphNode /Game/FirstPersonBP/Audio/SubSonar.SubSonar:SoundCueGraph_1.SoundCueGraphNode_1 or SoundCueGraphNode /Engine/EditorSounds/GamePreview/EndPlayInEditor_Cue.EndPlayInEditor_Cue:SoundCueGraph_1.SoundCueGraphNode_1
+[2015.04.23-19.46.38:901][ 91]LogUObjectHash:Warning: Ambiguous search, could be SoundCueGraphNode /Game/FirstPersonBP/Audio/SubSonar.SubSonar:SoundCueGraph_1.SoundCueGraphNode_1 or SoundCueGraphNode /Game/FirstPersonBP/Audio/PlayerPulse.PlayerPulse:SoundCueGraph_1.SoundCueGraphNode_1
+[2015.04.23-19.46.38:901][ 91]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Audio/PlayerPulse.PlayerPulse:SoundCueGraph_1.SoundCueGraphNode_1.EdGraphPin_6304) from referencer (EdGraphPin /Game/FirstPersonBP/Audio/SubSonar.SubSonar:SoundCueGraph_1.SoundCueGraphNode_5.EdGraphPin_17896).  Import failed...
+[2015.04.23-19.46.38:901][ 91]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'SoundCueGraphNode_1.EdGraphPin_6304''
+[2015.04.23-19.46.38:902][ 91]LogProperty:Warning: Illegal TEXT reference to a private object in external package (SoundNodeModulator /Game/FirstPersonBP/Audio/PlayerPulse.PlayerPulse:SoundNodeModulator_0) from referencer (SoundNodeDelay /Game/FirstPersonBP/Audio/SubSonar.SubSonar:SoundCueGraph_1.SoundCueGraphNode_5.SoundNodeDelay_2).  Import failed...
+[2015.04.23-19.46.38:902][ 91]LogProperty:Warning: ObjectProperty /Script/Engine.SoundNode:ChildNodes.ChildNodes: unresolved reference to 'SoundNodeModulator'/Game/FirstPersonBP/Audio/PlayerPulse.PlayerPulse:SoundNodeModulator_0''
+[2015.04.23-19.47.08:889][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Audio/SubSonar" FILE="../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/SubSonar.uasset" SILENT=true
+[2015.04.23-19.47.08:897][629]LogSavePackage: Save=6.191712ms
+[2015.04.23-19.47.08:897][629]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/SubSonarFF4D3E12417A458ACFACA1898ED73EB9.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/SubSonar.uasset'
+[2015.04.23-19.47.30:122][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Audio/SubSonar" FILE="../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/SubSonar.uasset" SILENT=true
+[2015.04.23-19.47.30:142][153]LogSavePackage: Save=7.584335ms
+[2015.04.23-19.47.30:142][153]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/SubSonar247A434043C3DCF6BEA3B39798FDD4D0.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/SubSonar.uasset'
+[2015.04.23-19.47.31:960][362]LogSavePackage: Save=8.992474ms
+[2015.04.23-19.47.31:960][362]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/PlayerPulse946BE0ED4098A410CEE6D4BB460D0A39.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/PlayerPulse.uasset'
+[2015.04.23-19.47.52:267][199]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.23-19.47.52:270][199]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.23-19.47.52:348][199]LogPlayLevel: PIE:  Blueprint regeneration took 80 ms (1 blueprints)
+[2015.04.23-19.47.52:348][199]PIE: New page: SIE session: FirstPersonExampleMap (Apr 23, 2015, 11:47:52 PM)
+[2015.04.23-19.47.52:369][199]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.04.23-19.47.52:373][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024378s)
+[2015.04.23-19.47.52:374][199]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2015.04.23-19.47.52:374][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.025615s)
+[2015.04.23-19.47.52:410][199]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.23-19.47.52:412][199]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.23-19.47.52:424][199]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.23-21.47.52
+[2015.04.23-19.47.52:425][199]LogWorld: Bringing up level for play took: 0.012630
+[2015.04.23-19.47.52:428][199]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.381
+[2015.04.23-19.48.01:388][152]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008419873100
+[2015.04.23-19.48.05:345][389]LogSavePackage: Save=2.125240ms
+[2015.04.23-19.48.05:345][389]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Submarine_sonar_ping_military_single_military_BLASTWAVEFX_096781E28E93E4BBBF90DD302BAB158303E3F.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/Submarine_sonar_ping_military_single_military_BLASTWAVEFX_09678.uasset'
+[2015.04.23-19.48.07:237][389]LogSavePackage: Save=1804.656616ms
+[2015.04.23-19.48.07:237][389]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/UEDPCFirstPersonExampleMap9E6FDD60475F0B086AEC3781988A2ED8.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.umap'
+[2015.04.23-19.50.05:438][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Audio/SubSonar" FILE="../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/SubSonar.uasset" SILENT=true
+[2015.04.23-19.50.05:456][726]LogSavePackage: Save=7.335475ms
+[2015.04.23-19.50.05:456][726]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/SubSonarB94A800345E406CDBE86148237B581DF.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/SubSonar.uasset'
+[2015.04.23-19.50.09:351][149]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.23-19.50.09:354][149]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.23-19.50.09:433][149]LogPlayLevel: PIE:  Blueprint regeneration took 82 ms (1 blueprints)
+[2015.04.23-19.50.09:434][149]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 11:50:09 PM)
+[2015.04.23-19.50.09:454][149]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.04.23-19.50.09:458][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024273s)
+[2015.04.23-19.50.09:459][149]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2015.04.23-19.50.09:459][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.025217s)
+[2015.04.23-19.50.09:494][149]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.23-19.50.09:497][149]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.23-19.50.09:511][149]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.23-21.50.09
+[2015.04.23-19.50.09:512][149]LogWorld: Bringing up level for play took: 0.014319
+[2015.04.23-19.50.09:514][149]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.533
+[2015.04.23-19.50.24:201][888]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008417FBB740
+[2015.04.23-19.56.06:042][336]LogSavePackage: Save=1944.262207ms
+[2015.04.23-19.56.06:042][336]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMap_Auto3C14450A44772ACAF480F299FD04DB735.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2015.04.23-19.56.06:060][336]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.140
+[2015.04.23-19.56.06:060][336]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.140
+[2015.04.23-19.56.06:102][336]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Audio/SubSonar] ([1] browsable assets)...
+[2015.04.23-19.56.06:102][336]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Audio/SubSonar]
+[2015.04.23-19.56.06:200][336]LogSavePackage: Save=70.111198ms
+[2015.04.23-19.56.06:200][336]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/SubSonar_Auto30BE82CFB43B31C995B38C7A2D098DDFE.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Audio/SubSonar_Auto3.uasset'
+[2015.04.23-19.56.06:209][336]LogFileHelpers: Auto-saving content packages took 0.148
+[2015.04.23-20.07.11:664][ 47]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 X:\AudioProjects\sonarpulse_4sec.wav)
+[2015.04.23-20.07.11:673][ 47]LogAudioDerivedData:Display: Building compressed audio format OGG wave sonarpulse_4sec...
+[2015.04.23-20.07.11:748][ 47]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/Audio/sonarpulse_4sec.sonarpulse_4sec.
+[2015.04.23-20.07.11:755][ 47]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.23-20.07.11:756][ 47]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Audio'
+[2015.04.23-20.07.30:016][ 16]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.015
+[2015.04.23-20.07.30:053][ 16]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Audio/SubSonar] ([1] browsable assets)...
+[2015.04.23-20.07.30:060][ 16]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Audio/SubSonar]
+[2015.04.23-20.07.30:154][ 16]LogSavePackage: Save=75.170624ms
+[2015.04.23-20.07.30:154][ 16]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/SubSonar_Auto499D45E994EFBF23E75B1669081CD1F2D.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Audio/SubSonar_Auto4.uasset'
+[2015.04.23-20.07.30:201][ 16]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Audio/sonarpulse_4sec] ([1] browsable assets)...
+[2015.04.23-20.07.30:215][ 16]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/Audio/sonarpulse_4sec.sonarpulse_4sec]
+[2015.04.23-20.07.30:215][ 16]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Audio/sonarpulse_4sec]
+[2015.04.23-20.07.30:288][ 16]LogSavePackage: Save=68.903824ms
+[2015.04.23-20.07.30:289][ 16]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/sonarpulse_4sec_Auto48C1AF2544EDAF36D3148BE8236C9AD02.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Audio/sonarpulse_4sec_Auto4.uasset'
+[2015.04.23-20.07.30:296][ 16]LogFileHelpers: Auto-saving content packages took 0.279
+[2015.04.23-20.07.59:072][444]LogEditorTransaction: Undo Delete Selected Sound Cue Node
+[2015.04.23-20.07.59:089][444]LogShaders: CancelCompilation TriggerScan 
+[2015.04.23-20.07.59:090][444]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.23-20.07.59:090][444]LogShaders:Warning: 	Compiling TriggerScan: Platform=PCD3D_SM5, Usage=LightingModel=MSM_Unlit, BlendMode=BLEND_Opaque, SpecialEngine=0, TwoSided=0, TSNormal=1, InjectEmissiveIntoLPV=0, Masked=0, Distorted=0, Usage={}
+[2015.04.23-20.07.59:094][444]LogShaders:Warning: 		3 Shaders among 1 VertexFactories
+[2015.04.23-20.07.59:094][444]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.23-20.07.59:977][514]LogShaders: Completed 1 async shader maps, 0 more pending, 0 being compiled
+[2015.04.23-20.07.59:984][515]MaterialEditorStats: Info Base pass shader without light map: 54 instructions
+[2015.04.23-20.07.59:985][515]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.23-20.07.59:985][515]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.23-20.08.01:164][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Audio/SubSonar" FILE="../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/SubSonar.uasset" SILENT=true
+[2015.04.23-20.08.01:182][648]LogSavePackage: Save=7.136263ms
+[2015.04.23-20.08.01:182][648]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/SubSonar5020008048861A3B3B5F87B2862A600E.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/SubSonar.uasset'
+[2015.04.23-20.08.07:048][326]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.23-20.08.07:051][326]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.23-20.08.07:127][326]LogPlayLevel: PIE:  Blueprint regeneration took 79 ms (1 blueprints)
+[2015.04.23-20.08.07:127][326]PIE: New page: PIE session: FirstPersonExampleMap (Apr 24, 2015, 12:08:07 AM)
+[2015.04.23-20.08.07:151][326]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.04.23-20.08.07:154][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026540s)
+[2015.04.23-20.08.07:154][326]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2015.04.23-20.08.07:155][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027365s)
+[2015.04.23-20.08.07:192][326]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.23-20.08.07:194][326]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.23-20.08.07:206][326]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.23-22.08.07
+[2015.04.23-20.08.07:207][326]LogWorld: Bringing up level for play took: 0.012742
+[2015.04.23-20.08.07:209][326]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.837
+[2015.04.23-20.08.33:756][489]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008419621440
+[2015.04.23-20.08.45:397][748]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.04.23-20.09.58:718][143]LogSavePackage: Save=7.890911ms
+[2015.04.23-20.09.58:718][143]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/PlayerPulse10E68F44456A21F19A6323AA0146C4F4.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/PlayerPulse.uasset'
+[2015.04.23-20.09.58:750][143]LogSavePackage: Save=9.362971ms
+[2015.04.23-20.09.58:750][143]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/sonarpulse_4sec65EDAABD452A0E67ED298FBCBB66E5FE.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/sonarpulse_4sec.uasset'
+[2015.04.23-20.10.00:683][143]LogSavePackage: Save=1784.875977ms
+[2015.04.23-20.10.00:683][143]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/UEDPCFirstPersonExampleMap84FDEE9C4082F74B40410DAF0D1F4629.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.umap'
+[2015.04.23-20.10.26:067][776]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.23-20.10.26:070][776]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.23-20.10.26:148][776]LogPlayLevel: PIE:  Blueprint regeneration took 80 ms (1 blueprints)
+[2015.04.23-20.10.26:148][776]PIE: New page: PIE session: FirstPersonExampleMap (Apr 24, 2015, 12:10:26 AM)
+[2015.04.23-20.10.26:170][776]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.04.23-20.10.26:174][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025459s)
+[2015.04.23-20.10.26:175][776]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2015.04.23-20.10.26:175][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026765s)
+[2015.04.23-20.10.26:235][776]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.23-20.10.26:238][776]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.23-20.10.26:250][776]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.23-22.10.26
+[2015.04.23-20.10.26:251][776]LogWorld: Bringing up level for play took: 0.013266
+[2015.04.23-20.10.26:253][776]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.207
+[2015.04.23-20.10.32:525][511]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000840FB3A020
+[2015.04.23-20.11.00:367][739]LogSavePackage: Save=9.697164ms
+[2015.04.23-20.11.00:367][739]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/PlayerPulse4B024F0C47E37702D91F1C92A8DA0949.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/PlayerPulse.uasset'
+[2015.04.23-20.11.05:453][ 61]LogSavePackage: Save=1822.557495ms
+[2015.04.23-20.11.05:453][ 61]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMapAA39A6EF4A9DBB7FC80470A89788B228.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.23-20.11.05:491][ 61]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.099
+[2015.04.23-20.11.06:263][123]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.23-20.11.06:266][123]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.23-20.11.06:344][123]LogPlayLevel: PIE:  Blueprint regeneration took 81 ms (1 blueprints)
+[2015.04.23-20.11.06:345][123]PIE: New page: PIE session: FirstPersonExampleMap (Apr 24, 2015, 12:11:06 AM)
+[2015.04.23-20.11.06:364][123]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.04.23-20.11.06:368][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022752s)
+[2015.04.23-20.11.06:368][123]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2015.04.23-20.11.06:369][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023654s)
+[2015.04.23-20.11.06:431][123]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.23-20.11.06:433][123]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.23-20.11.06:446][123]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.23-22.11.06
+[2015.04.23-20.11.06:446][123]LogWorld: Bringing up level for play took: 0.012823
+[2015.04.23-20.11.06:448][123]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.402
+[2015.04.23-20.11.14:280][ 47]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000841FD85A80
+[2015.04.23-20.11.21:395][598]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Materials'
+[2015.04.23-20.11.37:801][313]LogShaders: CancelCompilation TriggerScan 
+[2015.04.23-20.11.37:806][313]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.23-20.11.37:807][313]LogShaders:Warning: 	Compiling TriggerScan: Platform=PCD3D_SM5, Usage=LightingModel=MSM_Unlit, BlendMode=BLEND_Opaque, SpecialEngine=0, TwoSided=0, TSNormal=1, InjectEmissiveIntoLPV=0, Masked=0, Distorted=0, Usage={}
+[2015.04.23-20.11.37:811][313]LogShaders:Warning: 		3 Shaders among 1 VertexFactories
+[2015.04.23-20.11.37:811][313]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.23-20.11.37:876][313]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.23-20.11.37:877][313]LogShaders:Warning: 	Compiling TriggerScan: Platform=PCD3D_SM5, Usage=LightingModel=MSM_Unlit, BlendMode=BLEND_Opaque, SpecialEngine=0, TwoSided=0, TSNormal=1, InjectEmissiveIntoLPV=0, Masked=0, Distorted=0, Usage={}
+[2015.04.23-20.11.37:880][313]LogShaders:Warning: 		5 Shaders among 1 VertexFactories
+[2015.04.23-20.11.37:885][313]LogShaders: CancelCompilation TriggerScan 
+[2015.04.23-20.11.37:885][313]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.23-20.11.37:886][313]LogShaders:Warning: 	Compiling TriggerScan: Platform=PCD3D_SM5, Usage=LightingModel=MSM_Unlit, BlendMode=BLEND_Opaque, SpecialEngine=0, TwoSided=0, TSNormal=1, InjectEmissiveIntoLPV=0, Masked=0, Distorted=0, Usage={}
+[2015.04.23-20.11.37:887][313]LogShaders:Warning: 		5 Shaders among 1 VertexFactories
+[2015.04.23-20.11.37:910][313]LogMaterial: 0.022351 seconds spent updating 1 materials, 1 interfaces, 2 instances, 0 with static permutations.
+[2015.04.23-20.11.38:960][363]LogShaders: Completed 1 async shader maps, 0 more pending, 1 being compiled
+[2015.04.23-20.11.39:405][387]LogShaders: Completed 1 async shader maps, 0 more pending, 0 being compiled
+[2015.04.23-20.11.42:844][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.23-20.11.43:670][750]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.04.23-20.11.48:688][990]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.23-20.11.48:689][990]LogShaders:Warning: 	Compiling ScanPP: Platform=PCD3D_SM5, Usage=LightingModel=MSM_Unlit, BlendMode=BLEND_Opaque, SpecialEngine=0, TwoSided=0, TSNormal=1, InjectEmissiveIntoLPV=0, Masked=0, Distorted=0, Usage={}
+[2015.04.23-20.11.48:689][990]LogShaders:Warning: 		3 Shaders among 1 VertexFactories
+[2015.04.23-20.11.48:689][990]LogShaders: CancelCompilation ScanPP 
+[2015.04.23-20.11.48:703][990]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.23-20.11.48:751][990]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.23-20.11.48:752][990]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.04.23-20.11.48:752][990]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.23-20.11.48:752][990]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.04.23-20.11.48:788][990]LogShaders: CancelCompilation ScanPP 
+[2015.04.23-20.11.48:789][990]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.23-20.11.48:790][990]LogShaders:Warning: 	Compiling ScanPP: Platform=PCD3D_SM5, Usage=LightingModel=MSM_Unlit, BlendMode=BLEND_Opaque, SpecialEngine=0, TwoSided=0, TSNormal=1, InjectEmissiveIntoLPV=0, Masked=0, Distorted=0, Usage={}
+[2015.04.23-20.11.48:791][990]LogShaders:Warning: 		3 Shaders among 1 VertexFactories
+[2015.04.23-20.11.48:791][990]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.23-20.11.48:815][990]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2015.04.23-20.11.48:816][990]LogShaders:Warning: 	Compiling FMatExpressionPreview MaterialExpressionVectorParameter_5: Platform=PCD3D_SM5, Usage=FMatExpressionPreview MaterialExpressionVectorParameter_5
+[2015.04.23-20.11.48:817][990]LogShaders:Warning: 		3 Shaders among 1 VertexFactories
+[2015.04.23-20.11.48:818][990]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.04.23-20.11.48:818][990]LogShaders:Warning: 	Compiling FMatExpressionPreview MaterialExpressionVectorParameter_6: Platform=PCD3D_SM5, Usage=FMatExpressionPreview MaterialExpressionVectorParameter_6
+[2015.04.23-20.11.48:819][990]LogShaders:Warning: 		3 Shaders among 1 VertexFactories
+[2015.04.23-20.11.48:820][990]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_7, compiling. 
+[2015.04.23-20.11.48:821][990]LogShaders:Warning: 	Compiling FMatExpressionPreview MaterialExpressionVectorParameter_7: Platform=PCD3D_SM5, Usage=FMatExpressionPreview MaterialExpressionVectorParameter_7
+[2015.04.23-20.11.48:822][990]LogShaders:Warning: 		3 Shaders among 1 VertexFactories
+[2015.04.23-20.11.49:019][997]LogShaders: Completed 1 async shader maps, 0 more pending, 3 being compiled
+[2015.04.23-20.11.49:027][998]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.23-20.11.49:027][998]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.23-20.11.49:027][998]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.23-20.11.49:143][ 10]LogShaders: Completed 1 async shader maps, 0 more pending, 2 being compiled
+[2015.04.23-20.11.49:228][ 20]LogShaders: Completed 1 async shader maps, 0 more pending, 1 being compiled
+[2015.04.23-20.11.49:340][ 33]LogShaders: Completed 1 async shader maps, 0 more pending, 0 being compiled
+[2015.04.23-20.12.06:907][969]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.23-20.12.06:908][969]LogShaders:Warning: 	Compiling PreviewMaterial_0: Platform=PCD3D_SM5, Usage=LightingModel=MSM_Unlit, BlendMode=BLEND_Opaque, SpecialEngine=0, TwoSided=0, TSNormal=1, InjectEmissiveIntoLPV=0, Masked=0, Distorted=0, Usage={}
+[2015.04.23-20.12.06:908][969]LogShaders:Warning: 		3 Shaders among 1 VertexFactories
+[2015.04.23-20.12.06:908][969]LogShaders: CancelCompilation PreviewMaterial_0 
+[2015.04.23-20.12.06:934][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.04.23-20.12.06:981][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.04.23-20.12.06:981][969]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.04.23-20.12.06:981][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.04.23-20.12.06:981][969]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.04.23-20.12.06:995][969]LogShaders: CancelCompilation PreviewMaterial_0 
+[2015.04.23-20.12.06:996][969]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.23-20.12.06:997][969]LogShaders:Warning: 	Compiling PreviewMaterial_0: Platform=PCD3D_SM5, Usage=LightingModel=MSM_Unlit, BlendMode=BLEND_Opaque, SpecialEngine=0, TwoSided=0, TSNormal=1, InjectEmissiveIntoLPV=0, Masked=0, Distorted=0, Usage={}
+[2015.04.23-20.12.06:998][969]LogShaders:Warning: 		3 Shaders among 1 VertexFactories
+[2015.04.23-20.12.06:998][969]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.23-20.12.07:021][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.04.23-20.12.07:022][969]LogShaders:Warning: 	Compiling FMatExpressionPreview MaterialExpressionVectorParameter_0: Platform=PCD3D_SM5, Usage=FMatExpressionPreview MaterialExpressionVectorParameter_0
+[2015.04.23-20.12.07:023][969]LogShaders:Warning: 		3 Shaders among 1 VertexFactories
+[2015.04.23-20.12.07:023][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_1, compiling. 
+[2015.04.23-20.12.07:024][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_2, compiling. 
+[2015.04.23-20.12.07:026][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_3, compiling. 
+[2015.04.23-20.12.07:026][969]LogShaders:Warning: 	Compiling FMatExpressionPreview MaterialExpressionCustom_3: Platform=PCD3D_SM5, Usage=FMatExpressionPreview MaterialExpressionCustom_3
+[2015.04.23-20.12.07:027][969]LogShaders:Warning: 		3 Shaders among 1 VertexFactories
+[2015.04.23-20.12.07:388][998]LogShaders: Completed 1 async shader maps, 0 more pending, 2 being compiled
+[2015.04.23-20.12.07:395][999]MaterialEditorStats: Info Base pass shader without light map: 54 instructions
+[2015.04.23-20.12.07:395][999]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.23-20.12.07:396][999]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.23-20.12.07:499][ 11]LogShaders: Completed 1 async shader maps, 0 more pending, 1 being compiled
+[2015.04.23-20.12.07:611][ 24]LogShaders: Completed 1 async shader maps, 0 more pending, 0 being compiled
+[2015.04.23-20.17.02:015][793]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Audio'
+[2015.04.23-20.17.12:791][ 32]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 X:\AudioProjects\player_click_1p33.wav)
+[2015.04.23-20.17.12:802][ 32]LogAudioDerivedData:Display: Building compressed audio format OGG wave player_click_1p33...
+[2015.04.23-20.17.12:841][ 32]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/Audio/player_click_1p33.player_click_1p33.
+[2015.04.23-20.17.12:847][ 32]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.23-20.17.12:847][ 32]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Audio'
+[2015.04.23-20.17.20:351][539]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000840FC3D9E0
+[2015.04.23-20.17.36:579][539]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008423035760
+[2015.04.23-20.17.36:586][539]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008419DEC180
+[2015.04.23-20.17.38:282][539]LogSavePackage: Save=9.112559ms
+[2015.04.23-20.17.38:282][539]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/PlayerPulse980B84FC418BAD1AB79B1BA2B081806A.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/PlayerPulse.uasset'
+[2015.04.23-20.17.38:310][539]LogSavePackage: Save=3.268693ms
+[2015.04.23-20.17.38:310][539]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/PlayerPulseSound56DC42204CBC63A345DAFFAEA1F1497A.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/PlayerPulseSound.uasset'
+[2015.04.23-20.18.06:377][173]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.23-20.18.06:380][173]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.23-20.18.06:456][173]LogPlayLevel: PIE:  Blueprint regeneration took 79 ms (1 blueprints)
+[2015.04.23-20.18.06:456][173]PIE: New page: PIE session: FirstPersonExampleMap (Apr 24, 2015, 12:18:06 AM)
+[2015.04.23-20.18.06:476][173]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.04.23-20.18.06:480][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023076s)
+[2015.04.23-20.18.06:481][173]LogPlayLevel: PIE: World Init took: (0.001165s)
+[2015.04.23-20.18.06:481][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024453s)
+[2015.04.23-20.18.06:544][173]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.23-20.18.06:547][173]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.23-20.18.06:559][173]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.23-22.18.06
+[2015.04.23-20.18.06:560][173]LogWorld: Bringing up level for play took: 0.012722
+[2015.04.23-20.18.06:562][173]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.515
+[2015.04.23-20.18.28:782][815]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008410E7A8E0
+[2015.04.23-20.18.32:776][962]LogSavePackage: Save=1819.148315ms
+[2015.04.23-20.18.32:776][962]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMap95AA8AC442202D5AA57EBE8745D7D157.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.23-20.18.32:813][962]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.108
+[2015.04.23-20.18.32:818][962]LogShaders: FinishCompilation TriggerScan 0.000s
+[2015.04.23-20.18.33:130][962]LogSavePackage: Save=283.504028ms
+[2015.04.23-20.18.33:130][962]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/TriggerScan8B7C5E184123CD0EC17ECE87673710AA.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Materials/TriggerScan.uasset'
+[2015.04.23-20.18.33:161][962]LogSavePackage: Save=7.476351ms
+[2015.04.23-20.18.33:161][962]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/PlayerPulse14ADBD9B4D38BF607B44AE8633DC2BB4.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/PlayerPulse.uasset'
+[2015.04.23-20.18.33:190][962]LogSavePackage: Save=8.349533ms
+[2015.04.23-20.18.33:190][962]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/player_click_1p33E8AEE4174FA4787793B132A60069C703.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/player_click_1p33.uasset'
+[2015.04.23-20.18.34:809][119]LogSavePackage: Save=7.577199ms
+[2015.04.23-20.18.34:809][119]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/PlayerPulseD493A7224AD3F916AE80099D8E298B9E.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Audio/PlayerPulse.uasset'
+[2015.04.23-20.18.55:242][623]Cmd: QUIT_EDITOR
+[2015.04.23-20.18.55:450][623]LogExit: Preparing to exit.
+[2015.04.23-20.18.56:330][623]LogExit: Editor shut down
+[2015.04.23-20.18.56:334][623]LogExit: Transaction tracking system shut down
+[2015.04.23-20.18.56:348][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000846500FEC0
+[2015.04.23-20.18.56:352][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000840E611800
+[2015.04.23-20.18.56:353][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000840F3A13A0
+[2015.04.23-20.18.56:353][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000840F3A11C0
+[2015.04.23-20.18.56:353][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000841BA26660
+[2015.04.23-20.18.56:353][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008415130AE0
+[2015.04.23-20.18.56:655][623]LogExit: Object subsystem successfully closed.
+[2015.04.23-20.18.56:844][623]LogModuleManager: Shutting down and abandoning module SoundCueEditor (179)
+[2015.04.23-20.18.56:844][623]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
+[2015.04.23-20.18.56:844][623]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.23-20.18.56:844][623]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.23-20.18.56:844][623]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.23-20.18.56:844][623]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.23-20.18.56:844][623]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.23-20.18.56:844][623]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.23-20.18.56:845][623]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.23-20.18.56:845][623]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.23-20.18.56:846][623]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.23-20.18.56:846][623]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.23-20.18.56:846][623]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.23-20.18.56:846][623]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.23-20.18.56:846][623]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.23-20.18.56:846][623]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.23-20.18.56:846][623]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.23-20.18.56:846][623]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.23-20.18.56:846][623]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.23-20.18.56:846][623]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.23-20.18.56:846][623]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.23-20.18.56:847][623]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.23-20.18.56:847][623]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.23-20.18.56:848][623]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.23-20.18.56:848][623]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.23-20.18.56:848][623]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.23-20.18.56:848][623]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.23-20.18.56:848][623]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.23-20.18.56:848][623]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.23-20.18.56:848][623]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.23-20.18.56:848][623]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.23-20.18.56:848][623]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.23-20.18.56:848][623]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.23-20.18.56:848][623]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.23-20.18.57:435][623]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.23-20.18.57:435][623]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.23-20.18.57:435][623]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.23-20.18.57:436][623]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.23-20.18.57:437][623]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.23-20.18.57:438][623]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.23-20.18.57:438][623]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.23-20.18.57:438][623]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.23-20.18.57:438][623]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.23-20.18.57:439][623]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.23-20.18.57:439][623]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.23-20.18.57:439][623]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.23-20.18.57:441][623]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.23-20.18.57:441][623]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.23-20.18.57:441][623]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.23-20.18.57:442][623]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.23-20.18.57:442][623]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.23-20.18.57:442][623]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.23-20.18.57:442][623]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.23-20.18.57:529][623]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.23-20.18.57:530][623]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.23-20.18.57:531][623]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.23-20.18.57:535][623]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.23-20.18.57:535][623]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.23-20.18.57:535][623]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.23-20.18.57:536][623]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.23-20.18.57:536][623]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.23-20.18.57:536][623]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.23-20.18.57:536][623]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.23-20.18.57:536][623]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.23-20.18.57:537][623]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.23-20.18.57:537][623]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.23-20.18.57:537][623]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.23-20.18.57:537][623]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.23-20.18.57:537][623]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.23-20.18.57:537][623]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.23-20.18.57:537][623]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.23-20.18.57:537][623]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.23-20.18.57:537][623]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.23-20.18.57:537][623]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.23-20.18.57:648][623]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.23-20.18.57:648][623]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.23-20.18.57:648][623]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.23-20.18.57:648][623]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.23-20.18.57:648][623]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.23-20.18.57:648][623]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.23-20.18.57:650][623]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.23-20.18.57:650][623]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.23-20.18.57:650][623]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.23-20.18.57:650][623]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.23-20.18.57:650][623]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.23-20.18.57:651][623]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.23-20.18.57:651][623]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.23-20.18.57:653][623]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.23-20.18.57:653][623]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.23-20.18.57:653][623]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.23-20.18.57:653][623]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.23-20.18.57:653][623]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.23-20.18.57:653][623]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.23-20.18.57:653][623]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.23-20.18.57:653][623]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.23-20.18.57:653][623]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.23-20.18.57:653][623]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.23-20.18.57:653][623]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.23-20.18.57:656][623]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.23-20.18.57:657][623]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.23-20.18.57:657][623]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.23-20.18.57:758][623]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.23-20.18.57:758][623]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.23-20.18.57:778][623]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.23-20.18.57:778][623]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.23-20.18.57:779][623]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.23-20.18.57:779][623]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.23-20.18.57:779][623]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.23-20.18.57:779][623]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.23-20.18.57:779][623]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.23-20.18.57:780][623]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.23-20.18.57:780][623]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.23-20.18.57:780][623]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.23-20.18.57:780][623]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.23-20.18.57:780][623]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.23-20.18.57:780][623]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.23-20.18.57:780][623]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.23-20.18.57:780][623]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.23-20.18.57:799][623]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.23-20.18.57:799][623]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.23-20.18.57:799][623]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.23-20.18.57:799][623]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.23-20.18.57:799][623]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.23-20.18.57:800][623]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.23-20.18.57:800][623]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.23-20.18.57:800][623]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.23-20.18.57:800][623]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.23-20.18.57:800][623]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.23-20.18.57:802][623]LogDerivedDataCache: Shutdown
+[2015.04.23-20.18.57:802][623]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.23-20.18.57:803][623]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.23-20.18.57:803][623]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.23-20.18.57:803][623]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.23-20.18.57:804][623]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.23-20.18.57:804][623]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.23-20.18.57:804][623]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.23-20.18.57:804][623]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.23-20.18.57:804][623]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.23-20.18.57:804][623]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.23-20.18.57:804][623]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.23-20.18.57:804][623]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.23-20.18.57:804][623]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.23-20.18.57:804][623]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.23-20.18.57:806][623]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.23-20.18.57:806][623]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.23-20.18.57:806][623]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.23-20.18.57:806][623]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.23-20.18.57:806][623]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.23-20.18.57:807][623]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.23-20.18.57:807][623]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.23-20.18.57:807][623]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.23-20.18.57:807][623]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.23-20.18.57:808][623]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.23-20.18.57:808][623]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.23-20.18.57:808][623]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.23-20.18.57:808][623]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.23-20.18.57:809][623]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.23-20.18.57:809][623]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.23-20.18.57:809][623]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.23-20.18.57:809][623]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.23-20.18.57:809][623]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.23-20.18.57:809][623]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.23-20.18.57:810][623]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.23-20.18.57:810][623]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.23-20.18.57:810][623]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.23-20.18.57:810][623]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.23-20.18.57:811][623]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.23-20.18.57:811][623]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.23-20.18.57:811][623]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.23-20.18.57:841][623]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.23-20.18.57:841][623]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.23-20.18.57:841][623]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.23-20.18.57:841][623]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.23-20.18.57:841][623]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.23-20.18.57:841][623]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.23-20.18.57:841][623]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.23-20.18.57:841][623]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.23-20.18.57:841][623]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.23-20.18.57:843][623]LogExit: Exiting.
+[2015.04.23-20.18.57:871][623]Log file closed, 04/23/15 22:18:57

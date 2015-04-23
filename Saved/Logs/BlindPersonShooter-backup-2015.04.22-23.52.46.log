@@ -1,0 +1,1425 @@
+﻿Log file open, 04/22/15 22:32:46
+LogInit:Display: Running engine for game: BlindPersonShooter
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.22-20.32.46:339][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.22-20.32.46:404][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.22-20.32.46:442][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.22-20.32.46:450][  0]LogInit: Object subsystem initialized
+[2015.04.22-20.32.46:451][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.22-20.32.46:451][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.22-20.32.46:451][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.22-20.32.46:451][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.22-20.32.46:451][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.22-20.32.46:451][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.22-20.32.46:451][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.22-20.32.46:451][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.22-20.32.46:461][  0]LogInit: Computer: WOUTER-PC
+[2015.04.22-20.32.46:461][  0]LogInit: User: Wouter
+[2015.04.22-20.32.46:461][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.22-20.32.46:461][  0]LogInit: High frequency timer resolution =3.222694 MHz
+[2015.04.22-20.32.46:462][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2015.04.22-20.32.46:462][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.22-20.32.46:462][  0]LogMemory: Process Physical Memory: 46.25 MB used, 46.25 MB peak
+[2015.04.22-20.32.46:462][  0]LogMemory: Process Virtual Memory: 24.52 MB used, 24.52 MB peak
+[2015.04.22-20.32.46:462][  0]LogMemory: Physical Memory: 4023.90 MB used, 8167.08 MB total
+[2015.04.22-20.32.46:462][  0]LogMemory: Virtual Memory: 285.24 MB used, 134217728.00 MB total
+[2015.04.22-20.32.46:515][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6900 Series (Feature Level 11_0)
+[2015.04.22-20.32.46:515][  0]LogD3D11RHI: Adapter has 2032MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 3 output[s]
+[2015.04.22-20.32.46:517][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.22-20.32.46:517][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.22-20.32.46:517][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.22-20.32.46:529][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.22-20.32.46:536][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.04.22-20.32.46:687][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.22-20.32.46:736][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.22-20.32.46:736][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.22-20.32.46:801][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.22-20.32.49:340][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.22-20.32.50:112][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.22-20.32.50:209][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.22-20.32.50:244][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Wouter/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.22-20.32.50:244][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Wouter/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.22-20.32.50:244][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.22-20.32.50:244][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.22-20.32.50:342][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.22-20.32.50:355][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Wouter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.22-20.32.50:699][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.22-20.32.50:699][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.22-20.32.51:186][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.22-20.32.51:345][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.22-20.32.52:714][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.22-20.32.53:115][  0]SourceControl: Info Source control is disabled
+[2015.04.22-20.32.53:115][  0]SourceControl: Info Source control is disabled
+[2015.04.22-20.32.53:115][  0]SourceControl: Info Source control is disabled
+[2015.04.22-20.32.53:115][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.22-20.32.53:115][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.22-20.32.53:132][  0]SourceControl: Info Source control is disabled
+[2015.04.22-20.32.53:542][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.22-20.32.53:542][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.22-20.32.53:650][  0]LogEngine: Initializing Engine...
+[2015.04.22-20.32.55:814][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.22-20.32.55:822][  0]LogInit: FAudioDevice initialized.
+[2015.04.22-20.32.55:891][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.22-20.32.55:910][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Wouter/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.22-20.32.55:915][  0]LogInit: Texture streaming: Enabled
+[2015.04.22-20.32.56:044][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.22-20.32.56:045][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.22-20.32.56:045][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.22-20.32.56:045][  0]LogAnalytics: SetUserId 7b6bbb2b4b1c643f97d6798f1001496e|f307042b1d2f4c46a4ba52bf0d9fc354|b90fe644-cef2-4d5d-81b9-41cf3ecc3bcd
+[2015.04.22-20.32.56:045][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.22-20.32.56:396][  0]LogInit: Transaction tracking system initialized
+[2015.04.22-20.32.56:781][  0]BlueprintLog: New page: Editor Load
+[2015.04.22-20.32.56:853][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.04.22-20.32.56:854][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.22-20.32.57:661][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.22-20.32.58:079][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.22-20.32.58:608][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.22-20.32.58:608][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.22-20.32.58:613][  0]LogConsoleResponse:Display: 
+[2015.04.22-20.32.58:791][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.22-20.32.59:091][  0]SourceControl: Info Source control is disabled
+[2015.04.22-20.32.59:091][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.22-20.32.59:093][  0]LightingResults: New page: Lighting Build
+[2015.04.22-20.32.59:113][  0]MapCheck: New page: Map Check
+[2015.04.22-20.32.59:113][  0]LightingResults: New page: Lighting Build
+[2015.04.22-20.32.59:118][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081C5916980
+[2015.04.22-20.32.59:129][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.22-20.33.01:405][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.22-20.33.02:249][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-20.33.02:250][  0]Cmd: MAP CHECKDEP
+[2015.04.22-20.33.02:250][  0]MapCheck: New page: FirstPersonExampleMap - Apr 23, 2015, 12:33:02 AM
+[2015.04.22-20.33.02:452][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 202.825ms to complete.
+[2015.04.22-20.33.02:453][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.362
+[2015.04.22-20.33.02:663][  0]LogCollectionManager: Loaded 0 collections in 0.002183 seconds
+[2015.04.22-20.33.02:674][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 1696 classes and 261 folders.
+[2015.04.22-20.33.02:756][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0053 seconds. Added 1 classes and 2 folders.
+[2015.04.22-20.33.02:840][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.22-20.33.02:841][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.22-20.33.02:848][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.22-20.33.02:878][  0]LogLoad: Full Startup: 18.86 seconds (BP compile: 1.06 seconds)
+[2015.04.22-20.33.03:356][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Materials'
+[2015.04.22-20.33.03:484][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.22-20.33.03:652][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x496 (Frame:3).
+[2015.04.22-20.33.04:780][  4]LogAssetRegistry: Asset discovery search completed in 7.9383 seconds
+[2015.04.22-20.42.00:736][ 63]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-20.42.00:736][ 63]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-20.42.00:817][ 63]LogPlayLevel: PIE:  Blueprint regeneration took 81 ms (1 blueprints)
+[2015.04.22-20.42.00:817][ 63]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 12:42:00 AM)
+[2015.04.22-20.42.00:839][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021618s)
+[2015.04.22-20.42.00:840][ 63]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2015.04.22-20.42.00:841][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023397s)
+[2015.04.22-20.42.01:058][ 63]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-20.42.01:061][ 63]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-20.42.01:073][ 63]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-22.42.01
+[2015.04.22-20.42.01:074][ 63]LogWorld: Bringing up level for play took: 0.012648
+[2015.04.22-20.42.01:090][ 63]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.657
+[2015.04.22-20.42.01:112][ 63]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:20020).
+[2015.04.22-20.42.13:127][384]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081BE0A6D40
+[2015.04.22-20.43.05:123][570]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.43.05:145][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.22-20.43.05:193][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.22-20.43.05:193][570]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.22-20.43.05:193][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.22-20.43.05:193][570]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.22-20.43.05:209][570]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.43.05:211][570]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.43.05:238][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.04.22-20.43.05:240][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_1, compiling. 
+[2015.04.22-20.43.05:241][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_2, compiling. 
+[2015.04.22-20.43.05:242][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_3, compiling. 
+[2015.04.22-20.43.06:431][674]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.43.06:431][674]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.43.06:431][674]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.43.21:388][429]LogSavePackage: Save=1755.033813ms
+[2015.04.22-20.43.21:388][429]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMap_Auto13C1E6BFA458443004793F39E85DC0890.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.04.22-20.43.21:398][429]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.863
+[2015.04.22-20.43.21:398][429]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.863
+[2015.04.22-20.45.30:488][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube07)
+[2015.04.22-20.46.10:276][333]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.46.10:277][333]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.46.12:142][482]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.46.12:142][482]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.46.12:142][482]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.46.12:971][551]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.46.12:972][551]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.46.13:253][569]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.46.13:253][569]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.46.13:253][569]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.47.29:059][521]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.47.29:061][521]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.47.30:228][616]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.47.30:228][616]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.47.30:228][616]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.48.58:681][894]LogSavePackage: Save=1757.169312ms
+[2015.04.22-20.48.58:681][894]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMap00B612F9429374148F62D681A2D0CABE.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.22-20.48.59:404][946]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-20.48.59:404][946]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-20.48.59:466][946]LogPlayLevel: PIE:  Blueprint regeneration took 62 ms (1 blueprints)
+[2015.04.22-20.48.59:466][946]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 12:48:59 AM)
+[2015.04.22-20.48.59:489][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021898s)
+[2015.04.22-20.48.59:490][946]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2015.04.22-20.48.59:490][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023261s)
+[2015.04.22-20.48.59:583][946]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-20.48.59:585][946]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-20.48.59:597][946]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-22.48.59
+[2015.04.22-20.48.59:598][946]LogWorld: Bringing up level for play took: 0.012437
+[2015.04.22-20.48.59:633][946]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.201
+[2015.04.22-20.49.15:493][130]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081F8ED3E20
+[2015.04.22-20.49.31:537][411]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.04.22-20.51.19:269][435]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-20.51.19:285][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.22-20.51.19:333][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.22-20.51.19:333][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.22-20.51.19:333][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.22-20.51.19:333][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.22-20.51.19:372][435]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-20.51.19:374][435]LogMaterial: 0.000030 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.51.19:399][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2015.04.22-20.51.19:401][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.04.22-20.51.19:403][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_7, compiling. 
+[2015.04.22-20.51.20:959][509]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-20.51.20:959][509]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.51.20:959][509]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-20.51.46:350][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.22-20.51.49:992][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube07)
+[2015.04.22-20.52.15:332][450]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.52.15:334][450]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.52.16:834][555]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.52.16:834][555]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.52.16:834][555]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.52.18:211][656]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.52.18:213][656]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.52.18:470][672]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.52.18:470][672]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.52.18:470][672]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.52.22:615][984]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionActorPositionWS_1, compiling. 
+[2015.04.22-20.52.26:353][266]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCameraVectorWS_0, compiling. 
+[2015.04.22-20.52.33:829][858]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.52.33:830][858]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.52.34:099][874]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.52.34:099][874]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.52.34:099][874]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.52.36:891][ 83]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.52.36:892][ 83]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.52.37:155][ 97]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.52.37:155][ 97]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.52.37:155][ 97]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.52.50:389][134]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.52.50:391][134]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.52.50:674][152]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.52.50:674][152]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.52.50:674][152]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.52.54:002][402]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.52.54:004][402]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.52.54:311][422]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.52.54:311][422]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.52.54:311][422]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.53.02:441][ 88]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.53.02:443][ 88]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.53.02:726][107]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.53.02:726][107]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.53.02:727][107]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.53.33:609][485]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.53.33:611][485]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.53.34:733][564]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.53.34:735][564]LogMaterial: 0.000028 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.53.34:822][568]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.53.34:822][568]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.53.34:822][568]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.57.20:239][323]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-20.57.20:239][323]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-20.57.20:301][323]LogPlayLevel: PIE:  Blueprint regeneration took 62 ms (1 blueprints)
+[2015.04.22-20.57.20:302][323]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 12:57:20 AM)
+[2015.04.22-20.57.20:324][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022040s)
+[2015.04.22-20.57.20:325][323]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2015.04.22-20.57.20:326][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023707s)
+[2015.04.22-20.57.20:422][323]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-20.57.20:424][323]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-20.57.20:436][323]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-22.57.20
+[2015.04.22-20.57.20:437][323]LogWorld: Bringing up level for play took: 0.012589
+[2015.04.22-20.57.20:478][323]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.046
+[2015.04.22-20.57.21:973][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081EB1C4D60
+[2015.04.22-20.59.04:546][866]Cmd: TRANSACTION UNDO
+[2015.04.22-20.59.04:546][866]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2015.04.22-20.59.04:586][866]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.59.04:587][866]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.59.04:597][866]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-20.59.04:599][866]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.59.05:575][914]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.59.05:575][914]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.59.05:575][914]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.59.05:675][921]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-20.59.05:675][921]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.59.05:675][921]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-20.59.05:719][924]Cmd: TRANSACTION UNDO
+[2015.04.22-20.59.05:719][924]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2015.04.22-20.59.05:761][924]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.59.05:763][924]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.59.05:767][924]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-20.59.05:769][924]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.59.06:036][937]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.59.06:036][937]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.59.06:036][937]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.59.06:211][942]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-20.59.06:211][942]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.59.06:211][942]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-20.59.07:298][  8]Cmd: TRANSACTION UNDO
+[2015.04.22-20.59.07:298][  8]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2015.04.22-20.59.07:337][  8]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.59.07:338][  8]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.59.07:343][  8]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-20.59.07:344][  8]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.59.07:632][ 24]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.59.07:632][ 24]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.59.07:632][ 24]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.59.07:793][ 35]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-20.59.07:793][ 35]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.59.07:793][ 35]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-20.59.07:930][ 45]Cmd: TRANSACTION UNDO
+[2015.04.22-20.59.07:930][ 45]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2015.04.22-20.59.07:951][ 45]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.59.07:953][ 45]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.59.07:957][ 45]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-20.59.07:959][ 45]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.59.08:325][ 68]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.59.08:325][ 68]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.59.08:325][ 68]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.59.08:441][ 76]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-20.59.08:441][ 76]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.59.08:441][ 76]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-20.59.08:525][ 82]Cmd: TRANSACTION UNDO
+[2015.04.22-20.59.08:525][ 82]LogEditorTransaction: Undo Add Component
+[2015.04.22-20.59.08:547][ 82]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-20.59.08:549][ 82]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.59.08:553][ 82]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-20.59.08:555][ 82]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-20.59.08:863][101]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-20.59.08:863][101]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.59.08:863][101]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-20.59.09:006][111]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-20.59.09:006][111]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-20.59.09:006][111]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-20.59.16:810][514]LogSavePackage: Save=1761.867554ms
+[2015.04.22-20.59.16:810][514]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMap_Auto2902F202D424DDDB33CA983A2D68F0E33.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2015.04.22-20.59.16:820][514]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.860
+[2015.04.22-20.59.16:820][514]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.860
+[2015.04.22-21.00.44:771][779]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.00.44:774][779]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.00.44:861][779]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081BEDED1C0
+[2015.04.22-21.00.44:863][779]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2015.04.22-21.00.44:863][779]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:00:44 AM)
+[2015.04.22-21.00.44:892][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027040s)
+[2015.04.22-21.00.44:893][779]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2015.04.22-21.00.44:893][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028224s)
+[2015.04.22-21.00.44:985][779]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.00.44:987][779]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.00.44:999][779]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.00.44
+[2015.04.22-21.00.45:000][779]LogWorld: Bringing up level for play took: 0.012686
+[2015.04.22-21.00.45:039][779]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.606
+[2015.04.22-21.00.51:695][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081BDBFCB80
+[2015.04.22-21.01.07:178][338]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.01.07:181][338]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.01.07:270][338]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
+[2015.04.22-21.01.07:270][338]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:01:07 AM)
+[2015.04.22-21.01.07:293][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022793s)
+[2015.04.22-21.01.07:294][338]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2015.04.22-21.01.07:294][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024080s)
+[2015.04.22-21.01.07:385][338]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.01.07:387][338]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.01.07:399][338]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.01.07
+[2015.04.22-21.01.07:400][338]LogWorld: Bringing up level for play took: 0.012613
+[2015.04.22-21.01.07:439][338]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.006
+[2015.04.22-21.01.15:738][925]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081901296C0
+[2015.04.22-21.01.45:799][350]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.01.45:801][350]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.01.47:085][451]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-21.01.47:085][451]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.01.47:085][451]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.01.51:753][864]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.01.51:755][864]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.01.52:011][882]MaterialEditorStats: Info Base pass shader without light map: 58 instructions
+[2015.04.22-21.01.52:011][882]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.01.52:011][882]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.01.56:242][218]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.01.56:242][218]LogMaterial:Warning: Failed to compile Material /Engine/Transient.TriggerScan for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.22-21.01.56:242][218]LogMaterial:Warning: 	(Node Custom) Custom material DynamicScanFX missing input 2 (Camera_Position)
+[2015.04.22-21.01.56:242][218]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.01.56:293][218]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_1, compiling. 
+[2015.04.22-21.01.56:294][218]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_2, compiling. 
+[2015.04.22-21.01.56:295][218]MaterialEditorStats:Error: Error [SM5] (Node Custom) Custom material DynamicScanFX missing input 2 (Camera_Position)
+[2015.04.22-21.01.57:064][274]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.01.57:065][274]LogMaterial:Warning: Failed to compile Material /Engine/Transient.TriggerScan for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.22-21.01.57:065][274]LogMaterial:Warning: 	(Node Custom) Custom material DynamicScanFX missing input 2 (Camera_Position)
+[2015.04.22-21.01.57:065][274]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.02.02:156][700]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.02.02:156][700]LogMaterial:Warning: Failed to compile Material /Engine/Transient.TriggerScan for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.22-21.02.02:156][700]LogMaterial:Warning: 	(Node Custom) Custom material DynamicScanFX missing input 2 (Camera_Position)
+[2015.04.22-21.02.02:156][700]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.02.09:943][374]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.02.09:944][374]LogMaterial: 0.000029 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.02.09:972][374]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_1, compiling. 
+[2015.04.22-21.02.10:136][382]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.02.10:136][382]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.02.10:136][382]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.02.13:246][621]LogMaterialEditor: Saving and Compiling material TriggerScan
+[2015.04.22-21.02.14:463][621]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.02.14:467][621]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.02.14:526][621]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.02.14:534][621]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.02.14:538][621]LogMaterial: 0.001534 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.04.22-21.02.15:246][621]LogSavePackage: Save=275.846558ms
+[2015.04.22-21.02.15:246][621]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/TriggerScanEE489D2A407A19AB185DC7926BFEFD01.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Materials/TriggerScan.uasset'
+[2015.04.22-21.02.15:256][621]MaterialEditorStats: Info Base pass shader without light map: 79 instructions
+[2015.04.22-21.02.15:256][621]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.02.15:256][621]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.22-21.02.21:442][ 93]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.02.21:444][ 93]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.02.21:536][ 93]LogPlayLevel: PIE:  Blueprint regeneration took 93 ms (1 blueprints)
+[2015.04.22-21.02.21:536][ 93]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:02:21 AM)
+[2015.04.22-21.02.21:563][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025725s)
+[2015.04.22-21.02.21:563][ 93]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2015.04.22-21.02.21:563][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026525s)
+[2015.04.22-21.02.21:654][ 93]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.02.21:656][ 93]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.02.21:669][ 93]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.02.21
+[2015.04.22-21.02.21:670][ 93]LogWorld: Bringing up level for play took: 0.012869
+[2015.04.22-21.02.21:704][ 93]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.729
+[2015.04.22-21.02.50:998][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000818F32D620
+[2015.04.22-21.02.53:540][482]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.02.53:542][482]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.02.53:632][482]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2015.04.22-21.02.53:632][482]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:02:53 AM)
+[2015.04.22-21.02.53:656][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023613s)
+[2015.04.22-21.02.53:657][482]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2015.04.22-21.02.53:657][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024429s)
+[2015.04.22-21.02.53:700][482]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.02.53:703][482]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.02.53:715][482]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.02.53
+[2015.04.22-21.02.53:716][482]LogWorld: Bringing up level for play took: 0.012758
+[2015.04.22-21.02.53:717][482]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.715
+[2015.04.22-21.02.54:803][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008183BD2020
+[2015.04.22-21.02.56:809][718]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.02.56:812][718]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.02.56:903][718]LogPlayLevel: PIE:  Blueprint regeneration took 93 ms (1 blueprints)
+[2015.04.22-21.02.56:903][718]PIE: New page: SIE session: FirstPersonExampleMap (Apr 23, 2015, 1:02:56 AM)
+[2015.04.22-21.02.56:927][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023364s)
+[2015.04.22-21.02.56:928][718]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2015.04.22-21.02.56:928][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024595s)
+[2015.04.22-21.02.56:929][718]LogSelection:Warning: PIE object was selected: "PostProcessVolume /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GLOBALPostProcess"
+[2015.04.22-21.02.56:960][718]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.02.56:962][718]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.02.56:974][718]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.02.56
+[2015.04.22-21.02.56:975][718]LogWorld: Bringing up level for play took: 0.012599
+[2015.04.22-21.02.56:977][718]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.545
+[2015.04.22-21.02.57:011][718]LogSelection:Warning: PIE object was selected: "PostProcessVolume /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GLOBALPostProcess"
+[2015.04.22-21.03.14:995][636]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000818F32E340
+[2015.04.22-21.03.18:361][893]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2015.04.22-21.03.19:265][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.22-21.03.19:924][  8]Cmd: SELECT NONE
+[2015.04.22-21.03.20:856][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube07)
+[2015.04.22-21.03.35:392][689]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2015.04.22-21.03.38:006][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube07)
+[2015.04.22-21.03.57:605][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.22-21.03.58:424][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.22-21.04.01:964][793]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.04.01:967][793]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.04.02:058][793]LogPlayLevel: PIE:  Blueprint regeneration took 93 ms (1 blueprints)
+[2015.04.22-21.04.02:058][793]PIE: New page: SIE session: FirstPersonExampleMap (Apr 23, 2015, 1:04:02 AM)
+[2015.04.22-21.04.02:084][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025805s)
+[2015.04.22-21.04.02:085][793]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2015.04.22-21.04.02:085][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026748s)
+[2015.04.22-21.04.02:086][793]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Floor2"
+[2015.04.22-21.04.02:118][793]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.04.02:120][793]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.04.02:132][793]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.04.02
+[2015.04.22-21.04.02:133][793]LogWorld: Bringing up level for play took: 0.012669
+[2015.04.22-21.04.02:135][793]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.297
+[2015.04.22-21.04.02:152][793]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Floor2"
+[2015.04.22-21.04.18:976][922]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000818F32F880
+[2015.04.22-21.04.26:885][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube08)
+[2015.04.22-21.04.53:182][225]LogSavePackage: Save=1809.719727ms
+[2015.04.22-21.04.53:182][225]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMap5F2376B5495CC77F2BE8EE88A6BFC2E2.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.22-21.04.53:255][225]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.127
+[2015.04.22-21.05.01:564][665]LogSavePackage: Save=1816.242920ms
+[2015.04.22-21.05.01:564][665]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMapA1B3D0144DD464D93D7CF983B7F620B4.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.22-21.05.01:601][665]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.074
+[2015.04.22-21.05.11:281][383]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.05.11:283][383]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.05.11:376][383]LogPlayLevel: PIE:  Blueprint regeneration took 95 ms (1 blueprints)
+[2015.04.22-21.05.11:376][383]PIE: New page: SIE session: FirstPersonExampleMap (Apr 23, 2015, 1:05:11 AM)
+[2015.04.22-21.05.11:399][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022667s)
+[2015.04.22-21.05.11:401][383]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2015.04.22-21.05.11:401][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024229s)
+[2015.04.22-21.05.11:401][383]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Cube07"
+[2015.04.22-21.05.11:434][383]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.05.11:436][383]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.05.11:448][383]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.05.11
+[2015.04.22-21.05.11:449][383]LogWorld: Bringing up level for play took: 0.012485
+[2015.04.22-21.05.11:451][383]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.019
+[2015.04.22-21.05.11:468][383]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Cube07"
+[2015.04.22-21.05.45:962][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.22-21.05.45:962][238]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Floor2"
+[2015.04.22-21.05.49:409][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000818CF66D40
+[2015.04.22-21.06.06:542][673]Cmd: SELECT NONE
+[2015.04.22-21.06.35:971][988]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.06.35:973][988]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.06.36:001][988]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_2, compiling. 
+[2015.04.22-21.06.37:227][ 73]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.06.37:227][ 73]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.06.37:227][ 73]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.06.37:466][ 90]LogMaterialEditor: Saving and Compiling material TriggerScan
+[2015.04.22-21.06.38:696][ 90]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.06.38:700][ 90]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.06.38:761][ 90]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.06.38:765][ 90]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.06.38:769][ 90]LogMaterial: 0.001535 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.04.22-21.06.39:489][ 90]LogSavePackage: Save=274.860107ms
+[2015.04.22-21.06.39:489][ 90]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/TriggerScan503F5AD84A8C01DF1590CABE8266632F.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Materials/TriggerScan.uasset'
+[2015.04.22-21.06.39:498][ 90]MaterialEditorStats: Info Base pass shader without light map: 79 instructions
+[2015.04.22-21.06.39:499][ 90]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.06.39:499][ 90]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.22-21.07.31:838][796]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.07.31:841][796]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.07.31:934][796]LogPlayLevel: PIE:  Blueprint regeneration took 95 ms (1 blueprints)
+[2015.04.22-21.07.31:934][796]PIE: New page: SIE session: FirstPersonExampleMap (Apr 23, 2015, 1:07:31 AM)
+[2015.04.22-21.07.31:959][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025114s)
+[2015.04.22-21.07.31:960][796]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2015.04.22-21.07.31:960][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026275s)
+[2015.04.22-21.07.31:961][796]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Cube07"
+[2015.04.22-21.07.31:994][796]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.07.31:996][796]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.07.32:009][796]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.07.32
+[2015.04.22-21.07.32:010][796]LogWorld: Bringing up level for play took: 0.013252
+[2015.04.22-21.07.32:012][796]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.421
+[2015.04.22-21.07.32:029][796]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Cube07"
+[2015.04.22-21.07.33:659][888]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081BE0A7420
+[2015.04.22-21.07.39:600][350]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.07.39:603][350]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.07.39:696][350]LogPlayLevel: PIE:  Blueprint regeneration took 95 ms (1 blueprints)
+[2015.04.22-21.07.39:696][350]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:07:39 AM)
+[2015.04.22-21.07.39:718][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021871s)
+[2015.04.22-21.07.39:719][350]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2015.04.22-21.07.39:719][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023068s)
+[2015.04.22-21.07.39:811][350]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.07.39:813][350]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.07.39:825][350]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.07.39
+[2015.04.22-21.07.39:826][350]LogWorld: Bringing up level for play took: 0.012786
+[2015.04.22-21.07.39:865][350]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.568
+[2015.04.22-21.08.02:644][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081903B4F40
+[2015.04.22-21.08.41:036][536]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.08.41:038][536]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.08.42:259][618]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.08.42:259][618]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.08.42:259][618]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.09.37:425][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube07)
+[2015.04.22-21.10.09:116][508]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.10.09:132][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.22-21.10.09:183][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.22-21.10.09:183][508]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.04.22-21.10.09:183][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.22-21.10.09:183][508]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.04.22-21.10.09:199][508]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.10.09:200][508]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.10.09:224][508]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.04.22-21.10.09:226][508]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_1, compiling. 
+[2015.04.22-21.10.09:227][508]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_2, compiling. 
+[2015.04.22-21.10.09:227][508]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_3, compiling. 
+[2015.04.22-21.10.10:160][570]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.10.10:161][570]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.10.10:161][570]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.10.32:862][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube07)
+[2015.04.22-21.12.19:678][631]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.04.22-21.13.12:558][260]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes'
+[2015.04.22-21.13.14:237][335]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Materials'
+[2015.04.22-21.13.17:803][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube07)
+[2015.04.22-21.16.02:481][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.04.22-21.16.02:481][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.22-21.16.02:497][954]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081EAFCCC20
+[2015.04.22-21.16.04:434][954]LogSavePackage: Save=1848.470825ms
+[2015.04.22-21.16.04:434][954]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMap_Auto30EE628AC41C4EF76F8658AA1DD2DF8C5.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2015.04.22-21.16.04:443][954]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.963
+[2015.04.22-21.16.04:443][954]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.963
+[2015.04.22-21.17.00:489][306]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.17.00:495][306]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.17.00:541][306]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.22-21.17.00:624][306]LogBlueprint:Warning: [compiler] Warning [2656.60] Compile of FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 125 ms]
+[2015.04.22-21.17.00:625][306]LogBlueprint:Warning: [compiler] Warning [2656.60] Compile of FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.04.22-21.17.00:625][306]LogBlueprint:Warning: [compiler] Warning [2656.60] Compile of FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.22-21.17.00:628][306]LogBlueprint:Warning: [compiler] Warning [2656.61] Compile of FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 3 ms]
+[2015.04.22-21.17.00:629][306]LogBlueprint:Warning: [compiler] Warning [2656.61] Compile of FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.04.22-21.17.00:629][306]LogBlueprint:Warning: [compiler] Warning [2656.61] Compile of FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.22-21.17.00:645][306]LogPlayLevel: PIE:  Blueprint regeneration took 155 ms (1 blueprints)
+[2015.04.22-21.17.04:440][306]BlueprintLog: Info Blueprint FirstPersonExampleMap failed to compile
+[2015.04.22-21.21.52:931][749]LogEditorTransaction: Undo Move Node
+[2015.04.22-21.21.52:956][749]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.21.52:957][749]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.52:962][749]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.21.52:964][749]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.52:982][749]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.21.52:984][749]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.53:304][750]LogEditorTransaction: Undo Move Node
+[2015.04.22-21.21.53:322][750]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.21.53:324][750]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.53:325][750]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.21.53:327][750]LogMaterial: 0.000024 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.53:328][750]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.21.53:329][750]LogMaterial: 0.000021 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.54:083][796]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.21.54:083][796]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.21.54:083][796]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.21.54:312][823]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.21.54:312][823]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.21.54:312][823]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.21.54:387][832]LogEditorTransaction: Undo Create Pin Link
+[2015.04.22-21.21.54:408][832]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.21.54:410][832]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.54:411][832]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.21.54:413][832]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.54:414][832]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.21.54:415][832]LogMaterial: 0.000026 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.54:733][833]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.21.54:733][833]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.21.54:733][833]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.21.54:743][834]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.21.54:743][834]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.21.54:743][834]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.21.54:812][842]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.21.54:812][842]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.21.54:812][842]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.21.55:164][881]LogEditorTransaction: Undo Add Node
+[2015.04.22-21.21.55:207][881]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.21.55:208][881]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.55:210][881]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.21.55:211][881]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.55:212][881]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.21.55:214][881]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.55:511][883]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.21.55:511][883]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.21.55:511][883]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.21.55:530][885]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.21.55:530][885]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.21.55:530][885]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.21.55:690][904]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.21.55:690][904]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.21.55:690][904]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.21.55:814][919]LogEditorTransaction: Undo Move Node
+[2015.04.22-21.21.55:832][919]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.21.55:833][919]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.55:834][919]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.21.55:836][919]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.55:837][919]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.21.55:838][919]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.56:135][921]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.21.56:135][921]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.21.56:135][921]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.21.56:220][931]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.21.56:220][931]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.21.56:220][931]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.21.56:321][943]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.21.56:321][943]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.21.56:321][943]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.21.56:584][974]LogEditorTransaction: Undo Delete current selection
+[2015.04.22-21.21.56:625][974]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.21.56:626][974]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.56:627][974]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.21.56:629][974]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.56:630][974]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.21.56:631][974]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.21.56:965][976]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.21.56:965][976]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.21.56:965][976]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.21.56:965][976]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.21.56:965][976]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.21.56:965][976]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.21.57:102][990]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.21.57:102][990]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.21.57:102][990]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.22.14:391][843]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2015.04.22-21.22.14:489][843]BlueprintEditorCompileResults: Info [2970.47] Compile of FirstPersonExampleMap successful! [in 96 ms]
+[2015.04.22-21.22.21:076][518]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.22.21:082][518]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.22.21:178][518]LogPlayLevel: PIE:  Blueprint regeneration took 101 ms (1 blueprints)
+[2015.04.22-21.22.21:178][518]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:22:21 AM)
+[2015.04.22-21.22.21:203][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024532s)
+[2015.04.22-21.22.21:204][518]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2015.04.22-21.22.21:204][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.025408s)
+[2015.04.22-21.22.21:292][518]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.22.21:295][518]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.22.21:306][518]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.22.21
+[2015.04.22-21.22.21:307][518]LogWorld: Bringing up level for play took: 0.012269
+[2015.04.22-21.22.21:339][518]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.907
+[2015.04.22-21.22.30:756][548]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000819837BB00
+[2015.04.22-21.23.38:951][490]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes'
+[2015.04.22-21.23.44:753][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LargeCube)
+[2015.04.22-21.23.46:564][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube07)
+[2015.04.22-21.23.53:282][389]LogRenderer:Warning: Reallocating scene render targets to support 1432x928 (Frame:118386).
+[2015.04.22-21.25.24:045][ 99]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Materials'
+[2015.04.22-21.26.16:626][590]LogEditorTransaction: Undo Move Node
+[2015.04.22-21.26.16:670][590]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.16:671][590]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.16:673][590]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.16:674][590]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.16:684][590]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.16:686][590]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.17:345][618]LogEditorTransaction: Undo Move Node
+[2015.04.22-21.26.17:394][618]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.17:395][618]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.17:397][618]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.17:398][618]LogMaterial: 0.000030 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.17:399][618]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.17:401][618]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.17:656][620]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.26.17:656][620]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.17:656][620]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.17:921][651]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.26.17:921][651]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.17:921][651]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.26.17:930][652]LogEditorTransaction: Undo Move Node
+[2015.04.22-21.26.17:974][652]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.17:975][652]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.17:976][652]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.17:978][652]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.17:979][652]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.17:980][652]LogMaterial: 0.000030 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.18:231][653]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.26.18:231][653]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.18:231][653]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.18:336][653]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.22-21.26.18:337][653]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.04.22-21.26.20:234][653]LogSavePackage: Save=1796.330322ms
+[2015.04.22-21.26.20:234][653]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMap_Auto473BC95864E5AA3905AEE8EB76687088E.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2015.04.22-21.26.20:243][653]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.907
+[2015.04.22-21.26.20:243][653]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.907
+[2015.04.22-21.26.20:456][654]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.26.20:456][654]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.20:456][654]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.20:457][654]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.26.20:457][654]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.20:457][654]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.26.21:057][723]LogEditorTransaction: Undo Delete current selection
+[2015.04.22-21.26.21:103][723]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.21:104][723]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.21:105][723]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.21:107][723]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.21:108][723]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.21:110][723]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.21:412][725]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.26.21:412][725]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.21:412][725]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.21:489][727]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.26.21:489][727]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.21:489][727]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.26.21:607][730]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.26.21:607][730]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.21:607][730]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.22:378][820]LogEditorTransaction: Undo Move Node
+[2015.04.22-21.26.22:422][820]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.22:424][820]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.22:425][820]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.22:426][820]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.22:427][820]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.22:429][820]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.22:687][822]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.26.22:687][822]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.22:687][822]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.22:808][836]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.26.22:808][836]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.22:808][836]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.26.22:927][850]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.26.22:927][850]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.22:927][850]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.22:976][856]LogEditorTransaction: Undo Clear Children
+[2015.04.22-21.26.23:020][856]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.23:022][856]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.23:023][856]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.23:025][856]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.23:026][856]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.23:027][856]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.23:298][857]LogEditorTransaction: Undo Edit 0
+[2015.04.22-21.26.23:355][857]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.23:356][857]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.23:358][857]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.23:359][857]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.23:361][857]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.23:362][857]LogMaterial: 0.000029 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.23:616][858]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.26.23:616][858]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.23:616][858]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.23:627][859]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.26.23:627][859]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.23:627][859]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.26.23:947][896]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.26.23:947][896]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.23:947][896]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.24:104][915]LogEditorTransaction: Undo Add Child
+[2015.04.22-21.26.24:149][915]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.24:150][915]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.24:151][915]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.24:153][915]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.24:154][915]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.24:156][915]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.24:411][917]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.26.24:411][917]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.24:411][917]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.24:531][931]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.26.24:532][931]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.24:532][931]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.26.24:624][942]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.26.24:624][942]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.24:624][942]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.24:961][981]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2015.04.22-21.26.25:005][981]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.25:007][981]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.25:008][981]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.25:010][981]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.25:011][981]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.25:012][981]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.25:298][983]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.26.25:298][983]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.25:298][983]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.25:375][992]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.26.25:375][992]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.25:375][992]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.26.25:467][  3]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.26.25:468][  3]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.25:468][  3]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.25:633][ 23]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2015.04.22-21.26.25:675][ 23]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.25:677][ 23]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.25:678][ 23]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.25:680][ 23]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.25:681][ 23]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.25:682][ 23]LogMaterial: 0.000028 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.25:937][ 25]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.26.25:937][ 25]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.25:937][ 25]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.26:050][ 38]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.26.26:050][ 38]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.26:050][ 38]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.26.26:151][ 50]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.26.26:151][ 50]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.26:151][ 50]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.26:772][124]LogEditorTransaction: Undo Add Component
+[2015.04.22-21.26.26:791][124]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.26:793][124]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.26:794][124]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.26:795][124]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.26:796][124]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.26:798][124]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.27:054][126]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.26.27:054][126]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.27:054][126]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.27:200][143]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.26.27:200][143]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.27:200][143]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.26.27:283][153]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.26.27:283][153]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.27:283][153]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.28:178][258]LogEditorTransaction: Undo Move Node
+[2015.04.22-21.26.28:195][258]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.28:197][258]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.28:198][258]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.28:199][258]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.28:201][258]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.28:202][258]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.28:459][260]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.26.28:459][260]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.28:459][260]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.28:639][281]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.26.28:639][281]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.28:639][281]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.26.28:749][294]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.26.28:749][294]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.28:749][294]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.34:982][998]LogEditorTransaction: Undo Clicking on Actors
+[2015.04.22-21.26.34:999][998]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.35:001][998]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.35:002][998]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.35:004][998]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.35:005][998]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.35:006][998]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.35:314][  0]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.26.35:314][  0]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.35:314][  0]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.35:384][  2]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.26.35:384][  2]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.35:384][  2]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.26.35:480][  5]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.26.35:480][  5]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.35:480][  5]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.39:330][451]LogEditorTransaction: Undo Clicking on Actors
+[2015.04.22-21.26.39:346][451]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.39:348][451]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.39:349][451]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.39:351][451]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.39:352][451]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.39:353][451]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.39:656][453]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.26.39:657][453]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.39:657][453]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.39:752][455]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.26.39:752][455]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.39:752][455]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.26.39:841][457]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.26.39:841][457]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.39:841][457]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.39:978][469]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2015.04.22-21.26.40:019][469]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.26.40:020][469]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.40:021][469]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.26.40:023][469]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.40:024][469]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.26.40:026][469]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.26.40:304][471]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.26.40:304][471]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.40:304][471]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.26.40:346][476]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2015.04.22-21.26.40:346][476]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.40:346][476]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.22-21.26.40:482][492]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.26.40:482][492]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.26.40:482][492]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.27.19:959][860]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.27.19:966][860]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.27.20:066][860]LogPlayLevel: PIE:  Blueprint regeneration took 106 ms (1 blueprints)
+[2015.04.22-21.27.20:066][860]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:27:20 AM)
+[2015.04.22-21.27.20:093][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026242s)
+[2015.04.22-21.27.20:093][860]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2015.04.22-21.27.20:093][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026938s)
+[2015.04.22-21.27.20:183][860]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.27.20:186][860]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.27.20:198][860]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.27.20
+[2015.04.22-21.27.20:199][860]LogWorld: Bringing up level for play took: 0.012667
+[2015.04.22-21.27.20:234][860]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.198
+[2015.04.22-21.27.22:286][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A21E4F40
+[2015.04.22-21.27.57:201][926]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2015.04.22-21.27.57:299][926]BlueprintEditorCompileResults: Info [3313.28] Compile of FirstPersonExampleMap successful! [in 97 ms]
+[2015.04.22-21.27.59:463][106]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.27.59:468][106]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.27.59:566][106]LogPlayLevel: PIE:  Blueprint regeneration took 103 ms (1 blueprints)
+[2015.04.22-21.27.59:566][106]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:27:59 AM)
+[2015.04.22-21.27.59:595][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028310s)
+[2015.04.22-21.27.59:596][106]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2015.04.22-21.27.59:596][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029051s)
+[2015.04.22-21.27.59:691][106]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.27.59:693][106]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.27.59:705][106]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.27.59
+[2015.04.22-21.27.59:706][106]LogWorld: Bringing up level for play took: 0.012318
+[2015.04.22-21.27.59:741][106]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.691
+[2015.04.22-21.28.04:393][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A1793880
+[2015.04.22-21.28.07:540][879]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.28.07:544][879]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.28.07:641][879]LogPlayLevel: PIE:  Blueprint regeneration took 101 ms (1 blueprints)
+[2015.04.22-21.28.07:641][879]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:28:07 AM)
+[2015.04.22-21.28.07:666][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024188s)
+[2015.04.22-21.28.07:667][879]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2015.04.22-21.28.07:667][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024993s)
+[2015.04.22-21.28.07:759][879]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.28.07:761][879]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.28.07:773][879]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.28.07
+[2015.04.22-21.28.07:773][879]LogWorld: Bringing up level for play took: 0.012512
+[2015.04.22-21.28.07:808][879]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.624
+[2015.04.22-21.28.08:789][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A1547BA0
+[2015.04.22-21.28.11:009][175]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.28.11:013][175]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.28.11:110][175]LogPlayLevel: PIE:  Blueprint regeneration took 101 ms (1 blueprints)
+[2015.04.22-21.28.11:110][175]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:28:11 AM)
+[2015.04.22-21.28.11:135][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024488s)
+[2015.04.22-21.28.11:137][175]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2015.04.22-21.28.11:137][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.025933s)
+[2015.04.22-21.28.11:231][175]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.28.11:233][175]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.28.11:245][175]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.28.11
+[2015.04.22-21.28.11:246][175]LogWorld: Bringing up level for play took: 0.012470
+[2015.04.22-21.28.11:279][175]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.847
+[2015.04.22-21.28.15:246][578]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000819E617880
+[2015.04.22-21.29.42:814][ 81]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.29.42:819][ 81]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.29.42:883][ 81]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.29.42:893][ 81]LogMaterial: Missing cached shader map for material ScanPP, compiling. 
+[2015.04.22-21.29.42:897][ 81]LogMaterial: 0.001842 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.29.54:241][ 30]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.29.54:246][ 30]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.29.54:342][ 30]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000818758A160
+[2015.04.22-21.29.54:343][ 30]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008190F33600
+[2015.04.22-21.29.54:346][ 30]LogPlayLevel: PIE:  Blueprint regeneration took 104 ms (1 blueprints)
+[2015.04.22-21.29.54:346][ 30]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:29:54 AM)
+[2015.04.22-21.29.54:372][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026054s)
+[2015.04.22-21.29.54:373][ 30]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2015.04.22-21.29.54:373][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026817s)
+[2015.04.22-21.29.54:464][ 30]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.29.54:466][ 30]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.29.54:478][ 30]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.29.54
+[2015.04.22-21.29.54:479][ 30]LogWorld: Bringing up level for play took: 0.012588
+[2015.04.22-21.29.54:517][ 30]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.085
+[2015.04.22-21.30.01:668][787]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A0331F80
+[2015.04.22-21.30.02:972][917]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.30.02:976][917]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.30.03:073][917]LogPlayLevel: PIE:  Blueprint regeneration took 100 ms (1 blueprints)
+[2015.04.22-21.30.03:073][917]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:30:03 AM)
+[2015.04.22-21.30.03:099][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025408s)
+[2015.04.22-21.30.03:099][917]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2015.04.22-21.30.03:099][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026199s)
+[2015.04.22-21.30.03:189][917]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.30.03:192][917]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.30.03:204][917]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.30.03
+[2015.04.22-21.30.03:205][917]LogWorld: Bringing up level for play took: 0.012492
+[2015.04.22-21.30.03:241][917]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.808
+[2015.04.22-21.30.08:439][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A39216C0
+[2015.04.22-21.31.01:895][ 83]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.04.22-21.31.35:379][591]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.31.35:384][591]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.31.35:466][591]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.04.22-21.31.35:466][591]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.22-21.31.35:483][591]LogPlayLevel: PIE:  Blueprint regeneration took 104 ms (1 blueprints)
+[2015.04.22-21.31.35:483][591]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:31:35 AM)
+[2015.04.22-21.31.35:508][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024525s)
+[2015.04.22-21.31.35:509][591]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2015.04.22-21.31.35:509][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.025408s)
+[2015.04.22-21.31.35:597][591]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.31.35:599][591]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.31.35:610][591]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.31.35
+[2015.04.22-21.31.35:611][591]LogWorld: Bringing up level for play took: 0.011712
+[2015.04.22-21.31.35:644][591]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.212
+[2015.04.22-21.31.43:315][410]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081960B42C0
+[2015.04.22-21.32.52:887][210]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.22-21.33.03:959][ 18]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2015.04.22-21.33.04:007][ 18]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.22-21.33.04:114][ 18]LogBlueprint:Warning: [compiler] Warning [3620.10] Compile of FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 155 ms]
+[2015.04.22-21.33.04:114][ 18]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.22-21.33.04:114][ 18]BlueprintEditorCompileResults:Warning: Warning [3620.10] Compile of FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 155 ms]
+[2015.04.22-21.33.13:761][690]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2015.04.22-21.33.13:859][690]BlueprintEditorCompileResults: Info [3629.84] Compile of FirstPersonExampleMap successful! [in 98 ms]
+[2015.04.22-21.33.17:072][899]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.33.17:079][899]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.33.17:181][899]LogPlayLevel: PIE:  Blueprint regeneration took 110 ms (1 blueprints)
+[2015.04.22-21.33.17:182][899]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:33:17 AM)
+[2015.04.22-21.33.17:207][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025303s)
+[2015.04.22-21.33.17:208][899]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2015.04.22-21.33.17:208][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026054s)
+[2015.04.22-21.33.17:303][899]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.33.17:305][899]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.33.17:317][899]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.33.17
+[2015.04.22-21.33.17:318][899]LogWorld: Bringing up level for play took: 0.012432
+[2015.04.22-21.33.17:374][899]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.941
+[2015.04.22-21.33.22:826][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081939AC900
+[2015.04.22-21.33.52:292][368]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.33.52:300][368]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.33.52:415][368]LogPlayLevel: PIE:  Blueprint regeneration took 122 ms (1 blueprints)
+[2015.04.22-21.33.52:415][368]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:33:52 AM)
+[2015.04.22-21.33.52:442][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026191s)
+[2015.04.22-21.33.52:443][368]LogPlayLevel: PIE: World Init took: (0.001292s)
+[2015.04.22-21.33.52:443][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027690s)
+[2015.04.22-21.33.52:536][368]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.33.52:538][368]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.33.52:551][368]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.33.52
+[2015.04.22-21.33.52:552][368]LogWorld: Bringing up level for play took: 0.013472
+[2015.04.22-21.33.52:611][368]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.178
+[2015.04.22-21.33.58:525][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081AAEBE200
+[2015.04.22-21.34.12:310][726]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2015.04.22-21.34.12:411][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A21E7100
+[2015.04.22-21.34.12:411][726]BlueprintEditorCompileResults: Info [3688.39] Compile of FirstPersonExampleMap successful! [in 99 ms]
+[2015.04.22-21.34.17:092][891]LogSavePackage: Save=1827.907349ms
+[2015.04.22-21.34.17:092][891]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMapF77F68CE43EA43753064A0BF6E04D516.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.22-21.34.17:127][891]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.170
+[2015.04.22-21.34.17:446][891]LogSavePackage: Save=290.875580ms
+[2015.04.22-21.34.17:446][891]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/ScanPP6E5ED7944F3932663A3A8D9DE9800AE8.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Materials/ScanPP.uasset'
+[2015.04.22-21.34.18:431][955]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.34.18:436][955]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.34.18:540][955]LogPlayLevel: PIE:  Blueprint regeneration took 109 ms (1 blueprints)
+[2015.04.22-21.34.18:541][955]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:34:18 AM)
+[2015.04.22-21.34.18:567][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026298s)
+[2015.04.22-21.34.18:568][955]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2015.04.22-21.34.18:568][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027075s)
+[2015.04.22-21.34.18:664][955]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.34.18:665][955]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.34.18:677][955]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.34.18
+[2015.04.22-21.34.18:678][955]LogWorld: Bringing up level for play took: 0.012284
+[2015.04.22-21.34.18:736][955]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.303
+[2015.04.22-21.34.34:851][938]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008184357240
+[2015.04.22-21.36.15:052][243]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2015.04.22-21.36.15:154][243]BlueprintEditorCompileResults: Info [3811.13] Compile of FirstPersonExampleMap successful! [in 101 ms]
+[2015.04.22-21.36.17:079][368]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.36.17:085][368]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.36.17:183][368]LogPlayLevel: PIE:  Blueprint regeneration took 104 ms (1 blueprints)
+[2015.04.22-21.36.17:183][368]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:36:17 AM)
+[2015.04.22-21.36.17:210][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026165s)
+[2015.04.22-21.36.17:210][368]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2015.04.22-21.36.17:210][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026936s)
+[2015.04.22-21.36.17:301][368]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.36.17:303][368]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.36.17:315][368]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.36.17
+[2015.04.22-21.36.17:316][368]LogWorld: Bringing up level for play took: 0.012382
+[2015.04.22-21.36.17:372][368]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.939
+[2015.04.22-21.36.18:588][439]LogBlueprintUserMessages:Warning: ClearTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_1)
+[2015.04.22-21.36.18:588][439]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_1)
+[2015.04.22-21.36.21:954][650]LogBlueprintUserMessages:Warning: ClearTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_1)
+[2015.04.22-21.36.21:954][650]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_1)
+[2015.04.22-21.36.23:546][744]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000818CABBD80
+[2015.04.22-21.36.24:627][813]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.36.24:630][813]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.36.24:729][813]LogPlayLevel: PIE:  Blueprint regeneration took 102 ms (1 blueprints)
+[2015.04.22-21.36.24:729][813]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:36:24 AM)
+[2015.04.22-21.36.24:755][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025147s)
+[2015.04.22-21.36.24:756][813]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2015.04.22-21.36.24:756][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026076s)
+[2015.04.22-21.36.24:862][813]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.36.24:864][813]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.36.24:876][813]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.36.24
+[2015.04.22-21.36.24:877][813]LogWorld: Bringing up level for play took: 0.012665
+[2015.04.22-21.36.24:931][813]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.498
+[2015.04.22-21.36.25:804][863]LogBlueprintUserMessages:Warning: ClearTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_0)
+[2015.04.22-21.36.25:804][863]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_0)
+[2015.04.22-21.36.26:829][925]LogBlueprintUserMessages:Warning: ClearTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_0)
+[2015.04.22-21.36.26:829][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_0)
+[2015.04.22-21.36.26:974][934]LogBlueprintUserMessages:Warning: ClearTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_0)
+[2015.04.22-21.36.26:974][934]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_0)
+[2015.04.22-21.36.27:279][953]LogBlueprintUserMessages:Warning: ClearTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_0)
+[2015.04.22-21.36.27:279][953]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_0)
+[2015.04.22-21.36.30:526][151]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000819618C900
+[2015.04.22-21.38.18:302][798]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2015.04.22-21.38.18:381][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.22-21.38.18:382][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.04.22-21.38.18:403][798]BlueprintEditorCompileResults: Info [3934.38] Compile of FirstPersonExampleMap successful! [in 100 ms]
+[2015.04.22-21.38.20:475][928]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.38.20:481][928]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.38.20:580][928]LogPlayLevel: PIE:  Blueprint regeneration took 105 ms (1 blueprints)
+[2015.04.22-21.38.20:581][928]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:38:20 AM)
+[2015.04.22-21.38.20:607][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026093s)
+[2015.04.22-21.38.20:608][928]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2015.04.22-21.38.20:608][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026864s)
+[2015.04.22-21.38.20:701][928]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.38.20:703][928]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.38.20:715][928]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.38.20
+[2015.04.22-21.38.20:716][928]LogWorld: Bringing up level for play took: 0.012423
+[2015.04.22-21.38.20:771][928]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.338
+[2015.04.22-21.38.21:946][996]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_0)
+[2015.04.22-21.38.23:310][ 76]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000819618D440
+[2015.04.22-21.38.31:423][589]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.38.31:427][589]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.38.31:510][589]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.04.22-21.38.31:510][589]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.22-21.38.31:527][589]LogPlayLevel: PIE:  Blueprint regeneration took 104 ms (1 blueprints)
+[2015.04.22-21.38.31:527][589]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:38:31 AM)
+[2015.04.22-21.38.31:554][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026680s)
+[2015.04.22-21.38.31:555][589]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2015.04.22-21.38.31:555][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027450s)
+[2015.04.22-21.38.31:592][589]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.38.31:594][589]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.38.31:605][589]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.38.31
+[2015.04.22-21.38.31:606][589]LogWorld: Bringing up level for play took: 0.011709
+[2015.04.22-21.38.31:608][589]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.175
+[2015.04.22-21.38.32:734][664]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000818DAA47C0
+[2015.04.22-21.38.33:838][737]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.38.33:842][737]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.38.33:942][737]LogPlayLevel: PIE:  Blueprint regeneration took 104 ms (1 blueprints)
+[2015.04.22-21.38.33:942][737]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:38:33 AM)
+[2015.04.22-21.38.33:969][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026917s)
+[2015.04.22-21.38.33:970][737]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2015.04.22-21.38.33:970][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027726s)
+[2015.04.22-21.38.34:018][737]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.38.34:020][737]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.38.34:032][737]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.38.34
+[2015.04.22-21.38.34:033][737]LogWorld: Bringing up level for play took: 0.012333
+[2015.04.22-21.38.34:035][737]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.398
+[2015.04.22-21.38.34:762][789]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_0)
+[2015.04.22-21.38.35:381][834]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_0)
+[2015.04.22-21.38.35:563][847]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (SetPulse) or object (FirstPersonExampleMap_C_0)
+[2015.04.22-21.38.35:856][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081AB298720
+[2015.04.22-21.38.54:288][ 88]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2015.04.22-21.38.54:389][ 88]BlueprintEditorCompileResults: Info [3970.37] Compile of FirstPersonExampleMap successful! [in 100 ms]
+[2015.04.22-21.38.55:986][188]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.38.55:991][188]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.38.56:091][188]LogPlayLevel: PIE:  Blueprint regeneration took 105 ms (1 blueprints)
+[2015.04.22-21.38.56:091][188]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:38:56 AM)
+[2015.04.22-21.38.56:117][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025572s)
+[2015.04.22-21.38.56:118][188]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2015.04.22-21.38.56:118][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026320s)
+[2015.04.22-21.38.56:152][188]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.38.56:154][188]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.38.56:166][188]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.38.56
+[2015.04.22-21.38.56:167][188]LogWorld: Bringing up level for play took: 0.012400
+[2015.04.22-21.38.56:169][188]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.263
+[2015.04.22-21.39.16:202][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081BEDECEA0
+[2015.04.22-21.40.30:625][480]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes'
+[2015.04.22-21.44.02:478][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube08)
+[2015.04.22-21.45.09:726][ 55]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.04.22-21.45.09:726][ 55]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.22-21.45.11:654][ 55]LogSavePackage: Save=1826.251831ms
+[2015.04.22-21.45.11:654][ 55]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMap_Auto55A41211C42BB6D6C360A1A963C42735F.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap'
+[2015.04.22-21.45.11:663][ 55]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.937
+[2015.04.22-21.45.11:663][ 55]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.937
+[2015.04.22-21.45.11:712][ 55]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Meshes/CubeMesh] ([1] browsable assets)...
+[2015.04.22-21.45.11:735][ 55]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/Meshes/CubeMesh.CubeMesh]
+[2015.04.22-21.45.11:735][ 55]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Meshes/CubeMesh]
+[2015.04.22-21.45.12:081][ 55]LogSavePackage: Save=334.159241ms
+[2015.04.22-21.45.12:081][ 55]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/CubeMesh_Auto51416AE0D4DCE8113FC2F7AB14435DE7A.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/Autosaves/Game/FirstPersonBP/Meshes/CubeMesh_Auto5.uasset'
+[2015.04.22-21.45.12:089][ 55]LogFileHelpers: Auto-saving content packages took 0.426
+[2015.04.22-21.46.29:932][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081B020C7C0
+[2015.04.22-21.46.32:129][854]LogSavePackage: Save=1831.112671ms
+[2015.04.22-21.46.32:129][854]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMap4862002F49B8D7633BC2B482D9AD7EA3.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.22-21.46.32:164][854]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.167
+[2015.04.22-21.46.32:182][854]LogSavePackage: Save=4.855875ms
+[2015.04.22-21.46.32:182][854]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/CubeMesh4787200C4CCBDA616F8B938E401AC8FB.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Meshes/CubeMesh.uasset'
+[2015.04.22-21.46.36:031][ 40]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.04.22-21.46.37:377][129]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes'
+[2015.04.22-21.46.38:540][189]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.22-21.46.38:546][189]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.22-21.46.38:658][189]LogPlayLevel: PIE:  Blueprint regeneration took 118 ms (1 blueprints)
+[2015.04.22-21.46.38:658][189]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2015, 1:46:38 AM)
+[2015.04.22-21.46.38:681][189]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.04.22-21.46.38:681][189]LogBlueprint:Warning: FMemberReference::ResolveMember (AddComponent) bSelfContext == true, but no scope supplied!
+[2015.04.22-21.46.38:685][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026332s)
+[2015.04.22-21.46.38:685][189]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2015.04.22-21.46.38:685][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027095s)
+[2015.04.22-21.46.38:719][189]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.22-21.46.38:721][189]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.22-21.46.38:733][189]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.22-23.46.38
+[2015.04.22-21.46.38:734][189]LogWorld: Bringing up level for play took: 0.012360
+[2015.04.22-21.46.38:736][189]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.303
+[2015.04.22-21.46.45:562][667]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A3F10AE0
+[2015.04.22-21.50.58:905][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube07)
+[2015.04.22-21.51.03:439][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.22-21.51.04:296][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube07)
+[2015.04.22-21.51.24:514][443]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Materials'
+[2015.04.22-21.51.37:654][214]Cmd: TRANSACTION UNDO
+[2015.04.22-21.51.37:654][214]LogEditorTransaction: Undo Move Components
+[2015.04.22-21.51.37:699][214]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.51.37:701][214]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.51.37:705][214]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.51.37:707][214]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.51.39:214][287]MaterialEditorStats: Info Base pass shader without light map: 55 instructions
+[2015.04.22-21.51.39:214][287]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.51.39:214][287]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.51.39:342][294]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2015.04.22-21.51.39:342][294]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.22-21.51.39:342][294]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.04.22-21.51.40:066][338]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.04.22-21.52.13:619][181]LogSavePackage: Save=1832.869629ms
+[2015.04.22-21.52.13:619][181]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMap014B7ED44918AA9A22C84F94636CA175.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.22-21.52.13:842][181]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.381
+[2015.04.22-21.52.18:989][260]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.52.18:993][260]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.52.19:058][260]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.52.19:064][260]LogMaterial: Missing cached shader map for material TriggerScan, compiling. 
+[2015.04.22-21.52.19:068][260]LogMaterial: 0.001691 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.04.22-21.52.23:685][260]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.52.23:689][260]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.52.23:749][260]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.52.23:757][260]LogMaterial: Missing cached shader map for material MAT_SCAN, compiling. 
+[2015.04.22-21.52.23:761][260]LogMaterial: 0.001715 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.22-21.52.27:403][260]LogSavePackage: Save=1829.387207ms
+[2015.04.22-21.52.27:403][260]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/FirstPersonExampleMap00AD0B95430E26E166345B9165720056.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.22-21.52.27:438][260]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.174
+[2015.04.22-21.52.27:749][260]LogSavePackage: Save=276.913666ms
+[2015.04.22-21.52.27:749][260]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/MAT_SCANE81D321346B9812524C27C8069DCE46B.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Materials/MAT_SCAN.uasset'
+[2015.04.22-21.52.28:064][260]LogSavePackage: Save=273.842316ms
+[2015.04.22-21.52.28:064][260]LogSavePackage: Moving '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Saved/TriggerScanE0FB04C64C40B06817CD4EA583E2C085.tmp' to '../../../../../../Users/Wouter/Documents/Unreal Projects/BlindPersonShooter/Content/FirstPersonBP/Materials/TriggerScan.uasset'
+[2015.04.22-21.52.28:636][261]Cmd: QUIT_EDITOR
+[2015.04.22-21.52.28:837][261]LogExit: Preparing to exit.
+[2015.04.22-21.52.29:670][261]LogExit: Editor shut down
+[2015.04.22-21.52.29:671][261]LogExit: Transaction tracking system shut down
+[2015.04.22-21.52.29:672][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081BD999A80
+[2015.04.22-21.52.29:673][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081BBFCF240
+[2015.04.22-21.52.29:673][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081EA9E3420
+[2015.04.22-21.52.29:673][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081EF982520
+[2015.04.22-21.52.29:677][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081BD78ACA0
+[2015.04.22-21.52.29:681][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000818CF65580
+[2015.04.22-21.52.29:681][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000818E5849A0
+[2015.04.22-21.52.29:681][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008195769E40
+[2015.04.22-21.52.29:681][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000819D497920
+[2015.04.22-21.52.29:681][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000819DA4B100
+[2015.04.22-21.52.29:681][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000819DA4B2E0
+[2015.04.22-21.52.29:907][261]LogExit: Object subsystem successfully closed.
+[2015.04.22-21.52.30:001][261]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (179)
+[2015.04.22-21.52.30:001][261]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
+[2015.04.22-21.52.30:001][261]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.22-21.52.30:001][261]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.22-21.52.30:001][261]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.22-21.52.30:001][261]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.22-21.52.30:001][261]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.22-21.52.30:001][261]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.22-21.52.30:002][261]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.22-21.52.30:002][261]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.22-21.52.30:002][261]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.22-21.52.30:002][261]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.22-21.52.30:002][261]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.22-21.52.30:002][261]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.22-21.52.30:002][261]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.22-21.52.30:002][261]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.22-21.52.30:002][261]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.22-21.52.30:002][261]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.22-21.52.30:002][261]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.22-21.52.30:002][261]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.22-21.52.30:002][261]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.22-21.52.30:003][261]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.22-21.52.30:003][261]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.22-21.52.30:003][261]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.22-21.52.30:003][261]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.22-21.52.30:003][261]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.22-21.52.30:003][261]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.22-21.52.30:003][261]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.22-21.52.30:003][261]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.22-21.52.30:003][261]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.22-21.52.30:003][261]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.22-21.52.30:003][261]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.22-21.52.30:003][261]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.22-21.52.30:003][261]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.22-21.52.30:229][261]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.22-21.52.30:229][261]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.22-21.52.30:229][261]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.22-21.52.30:229][261]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.22-21.52.30:229][261]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.22-21.52.30:230][261]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.22-21.52.30:230][261]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.22-21.52.30:230][261]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.22-21.52.30:230][261]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.22-21.52.30:230][261]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.22-21.52.30:230][261]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.22-21.52.30:230][261]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.22-21.52.30:230][261]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.22-21.52.30:230][261]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.22-21.52.30:230][261]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.22-21.52.30:230][261]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.22-21.52.30:230][261]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.22-21.52.30:230][261]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.22-21.52.30:231][261]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.22-21.52.30:348][261]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.22-21.52.30:348][261]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.22-21.52.30:348][261]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.22-21.52.30:349][261]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.22-21.52.30:350][261]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.22-21.52.30:484][261]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.22-21.52.30:484][261]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.22-21.52.30:484][261]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.22-21.52.30:484][261]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.22-21.52.30:484][261]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.22-21.52.30:484][261]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.22-21.52.30:484][261]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.22-21.52.30:484][261]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.22-21.52.30:484][261]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.22-21.52.30:484][261]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.22-21.52.30:484][261]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.22-21.52.30:484][261]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.22-21.52.30:485][261]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.22-21.52.30:486][261]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.22-21.52.30:486][261]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.22-21.52.30:486][261]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.22-21.52.30:486][261]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.22-21.52.30:486][261]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.22-21.52.30:486][261]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.22-21.52.30:487][261]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.22-21.52.30:487][261]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.22-21.52.30:487][261]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.22-21.52.30:487][261]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.22-21.52.30:487][261]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.22-21.52.30:487][261]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.22-21.52.30:488][261]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.22-21.52.30:488][261]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.22-21.52.30:589][261]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.22-21.52.30:589][261]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.22-21.52.30:589][261]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.22-21.52.30:589][261]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.22-21.52.30:589][261]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.22-21.52.30:589][261]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.22-21.52.30:589][261]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.22-21.52.30:590][261]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.22-21.52.30:590][261]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.22-21.52.30:590][261]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.22-21.52.30:590][261]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.22-21.52.30:590][261]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.22-21.52.30:590][261]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.22-21.52.30:590][261]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.22-21.52.30:590][261]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.22-21.52.30:590][261]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.22-21.52.30:590][261]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.22-21.52.30:597][261]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.22-21.52.30:597][261]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.22-21.52.30:597][261]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.22-21.52.30:597][261]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.22-21.52.30:597][261]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.22-21.52.30:597][261]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.22-21.52.30:597][261]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.22-21.52.30:597][261]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.22-21.52.30:597][261]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.22-21.52.30:597][261]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.22-21.52.30:651][261]LogDerivedDataCache: Shutdown
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.22-21.52.30:651][261]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.22-21.52.30:652][261]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.22-21.52.30:652][261]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.22-21.52.30:652][261]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.22-21.52.30:652][261]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.22-21.52.30:652][261]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.22-21.52.30:652][261]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.22-21.52.30:652][261]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.22-21.52.30:652][261]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.22-21.52.30:652][261]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.22-21.52.30:652][261]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.22-21.52.30:652][261]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.22-21.52.30:652][261]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.22-21.52.30:652][261]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.22-21.52.30:652][261]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.22-21.52.30:660][261]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.22-21.52.30:660][261]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.22-21.52.30:660][261]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.22-21.52.30:660][261]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.22-21.52.30:660][261]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.22-21.52.30:660][261]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.22-21.52.30:660][261]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.22-21.52.30:660][261]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.22-21.52.30:661][261]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.22-21.52.30:662][261]LogExit: Exiting.
+[2015.04.22-21.52.30:702][261]Log file closed, 04/22/15 23:52:30
